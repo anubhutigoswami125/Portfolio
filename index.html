@@ -1,0 +1,1074 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ff35b8">
+<title>Anubhuti Goswami Portfolio | Biotechnology</title>
+<meta name="description" content="Anubhuti Goswami — B.Tech Biotechnology student at LPU exploring genetics, microbiology, biotechnology research, scientific communication, and AI in life sciences.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800;900&family=Press+Start+2P&display=swap" rel="stylesheet">
+<style>
+:root{--pink:#ff35b8;--hot:#ff078c;--purple:#8b35ff;--deep:#28063f;--lav:#d8b1ff;--cream:#fff4ff;--ink:#35104e;--yellow:#fff17b;--cyan:#9bffff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;min-height:100vh;padding:22px 14px 35px;font-family:Nunito,system-ui,sans-serif;color:var(--ink);background-color:#f43bc0;background-image:radial-gradient(circle,#fff7ff 0 2px,transparent 2.6px),radial-gradient(circle,rgba(255,255,255,.55) 0 1px,transparent 2px),linear-gradient(130deg,#ff36b8 0%,#ff75d7 25%,#d84aff 57%,#8f3bff 78%,#ff79d5 100%);background-size:37px 37px,59px 59px,100% 100%;background-attachment:fixed;overflow-x:hidden}
+body:before{content:"✦　🎀　☆　🪐　✿　✧　🌸　★";position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden;color:#fff;opacity:.58;font-size:clamp(19px,3vw,35px);line-height:18vh;letter-spacing:1.3vw;word-break:break-all;text-shadow:2px 3px #a22ce4}
+body:after{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;background:radial-gradient(ellipse at center,transparent 42%,rgba(67,0,94,.16) 100%)}
+.site{position:relative;z-index:1;max-width:1080px;margin:auto;border:4px solid var(--deep);background:var(--cream);box-shadow:10px 10px 0 var(--deep),16px 16px 0 rgba(255,31,172,.55);overflow:hidden}
+.topbar{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:11px 15px;background:var(--deep);color:#ffb9f0;border-bottom:4px solid var(--hot);font:8px/1.8 "Press Start 2P",monospace}
+.hero{display:grid;grid-template-columns:1fr 155px;gap:22px;align-items:center;padding:28px;background:linear-gradient(120deg,#ff9cde,#fff0ff 48%,#c9a0ff);border-bottom:4px solid var(--deep);position:relative}
+.eyebrow{font:8px/1.8 "Press Start 2P",monospace;color:#8b24c8}
+h1{margin:10px 0 8px;font:clamp(20px,4vw,37px)/1.5 "Press Start 2P",monospace;color:#7613c4;text-shadow:3px 3px 0 #ff4ec5,5px 5px 0 #fff}
+.subtitle{font-weight:900;color:#f00691;font-size:clamp(15px,2vw,20px)}
+.intro{max-width:690px;line-height:1.75;margin:10px 0 0}
+.avatar{width:145px;aspect-ratio:1;border:4px solid var(--deep);background:#ffdcf7;box-shadow:6px 6px 0 var(--hot);display:grid;place-items:center;position:relative}
+.avatar svg{width:100%;height:100%}
+.sticker{position:absolute;right:-12px;top:-15px;font-size:27px;filter:drop-shadow(2px 2px 0 #7c28bd);transform:rotate(12deg)}
+.nav{display:flex;flex-wrap:wrap;background:linear-gradient(90deg,#ff40b9,#e34aff,#a244ff);border-bottom:4px solid var(--deep)}
+.nav button{flex:1 0 auto;border:0;border-right:2px solid rgba(40,6,63,.2);padding:14px 12px;background:transparent;color:#33064c;font:8px/1.8 "Press Start 2P",monospace;cursor:pointer}
+.nav button:hover,.nav button[aria-selected="true"]{background:var(--deep);color:#fff;box-shadow:inset 0 -4px var(--pink)}
+.nav button:focus-visible,.btn:focus-visible{outline:3px solid var(--cyan);outline-offset:-4px}
+main{min-height:360px}
+.panel{display:none;padding:28px;background-color:#fff6ff;background-image:radial-gradient(#e5baff 1.2px,transparent 1.6px);background-size:20px 20px;animation:panel-in .18s ease-out}
+.panel.active{display:block}
+@keyframes panel-in{from{opacity:.5;transform:translateY(4px)}to{opacity:1;transform:none}}
+h2{font:clamp(12px,2vw,16px)/2 "Press Start 2P",monospace;color:#7515c4;margin:0 0 20px;padding-bottom:10px;border-bottom:3px dashed var(--pink);text-shadow:2px 2px #ffc2f0}
+h3{font:10px/1.8 "Press Start 2P",monospace;color:#6e15b8;margin:0 0 10px}
+p{line-height:1.7;margin:8px 0}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+.card{min-width:0;padding:18px;background:#fff;border:3px solid var(--deep);box-shadow:5px 5px 0 #c46aff;position:relative}
+.card:nth-child(4n+1){background:#ffe1f5}.card:nth-child(4n+2){background:#f1e2ff}.card:nth-child(4n+3){background:#fff9ce}
+.meta{font-weight:900;color:#ed168f;font-size:13px;line-height:1.8;margin-bottom:7px}
+a{color:#7613c4;font-weight:900;text-underline-offset:3px}
+a:hover{color:#f00691}
+.tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
+.tag{padding:6px 9px;border:2px solid var(--deep);background:#ffc9ef;font-weight:900;font-size:12px}
+.callout{padding:14px;background:#ffdef6;border:3px dashed #8d29d7;margin-bottom:18px;font-weight:800;line-height:1.8}
+.btn{border:3px solid var(--deep);background:var(--pink);color:var(--deep);box-shadow:3px 3px 0 #8b35ff;padding:11px 13px;font:9px/1.8 "Press Start 2P",monospace;cursor:pointer}
+.btn:hover{background:var(--yellow);transform:translate(-1px,-1px);box-shadow:4px 4px 0 #8b35ff}
+.btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 #8b35ff}
+.footer{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:18px;background:var(--deep);color:#ffe1fb;border-top:4px solid var(--hot);font-size:13px}
+.footer a{color:#ffb7ee;margin-left:12px}
+.arcade-intro{margin-bottom:18px;padding:14px;border:3px dashed #8d29d7;background:#ffe0f7;line-height:1.8;font-weight:800}
+.arcade-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.machine{min-width:0;padding:14px;border:4px solid var(--deep);background:linear-gradient(145deg,#ffc5eb,#e0c2ff);box-shadow:6px 6px 0 var(--hot)}
+.machine h3{min-height:36px}
+.machine-desc{font-size:13px;min-height:44px}
+.screen{overflow:hidden;border:4px solid white;outline:3px solid var(--deep);background:#2a0845}
+#catch-canvas{display:block;width:100%;height:235px;touch-action:none}
+.hud{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;margin:12px 0;color:#4d126d;font:8px/1.8 "Press Start 2P",monospace}
+.actions{display:flex;gap:8px;flex-wrap:wrap}
+.actions .btn{flex:1}
+.move-controls{display:flex;gap:8px;margin-top:9px}
+.move-controls .btn{flex:1}
+.message{min-height:44px;font-size:13px;font-weight:900;line-height:1.6;margin:12px 0 0}
+.pop-zone{position:relative;height:235px;overflow:hidden;border:4px solid white;outline:3px solid var(--deep);background:radial-gradient(circle at center,#7621a4,#290844 78%)}
+.prompt{position:absolute;inset:0;display:grid;place-items:center;text-align:center;color:#ffe7ff;font:9px/2 "Press Start 2P",monospace;padding:18px}
+.target{position:absolute;width:46px;height:46px;display:grid;place-items:center;border:3px solid #fff;background:#ff35b8;color:white;box-shadow:3px 3px 0 var(--cyan);font-size:25px;cursor:pointer;animation:pop .35s steps(2,end) infinite alternate}
+@keyframes pop{to{transform:scale(.86) rotate(8deg)}}
+.legal{max-width:800px;line-height:1.8}
+@media(max-width:700px){body{padding:9px 7px 22px}.site{box-shadow:5px 5px 0 var(--deep)}.hero{grid-template-columns:1fr 95px;padding:19px 15px;gap:10px}.avatar{width:92px}.panel{padding:20px 14px}.grid,.arcade-grid{grid-template-columns:1fr}.machine{padding:12px}.topbar{font-size:7px}.nav button{padding:11px 8px;font-size:7px}.card{padding:15px}.machine h3{min-height:0}.machine-desc{min-height:0}}
+@media(max-width:390px){.hero{grid-template-columns:1fr}.avatar{width:88px;grid-row:1}.eyebrow{font-size:7px}h1{font-size:18px}.hud{font-size:7px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+
+.avatar{position:relative}.avatar-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;image-rendering:auto;z-index:2;background:#eac4ff}.avatar:has(.avatar-photo:not([hidden])) svg{display:none}.hero-meta{margin-top:9px;font-size:12px}.legal-panel .legal-copy{max-width:850px}.legal-copy h3{margin-top:22px}.legal-copy h3:first-child{margin-top:0}.legal-copy p{margin:8px 0 14px}.footer a{margin-left:12px}.nav button{min-width:95px}
+
+/* === DESKTOP-IN-DESKTOP / PIXEL OS UPGRADE === */
+:root{--desk-ink:#fce7ff;--desk-violet:#261044;--desk-pink:#ff4fca;--desk-blue:#8cf4ff}
+body{padding:36px 18px 78px;background:#241039;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px),radial-gradient(ellipse at 18% 16%,#7435a0 0,transparent 35%),radial-gradient(ellipse at 85% 75%,#4b1f85 0,transparent 35%),linear-gradient(145deg,#180c2c,#35205c 60%,#190c2b);background-size:8px 8px,8px 8px,auto,auto,auto;background-attachment:fixed}
+body:before{content:"";opacity:.2;background-image:radial-gradient(#ffb9f1 1px,transparent 1.5px);background-size:19px 19px}
+body:after{content:"";inset:0;background:linear-gradient(transparent 96%,rgba(255,255,255,.025) 100%);background-size:100% 4px;opacity:.5}
+.site{width:min(1050px,calc(100vw - 270px));max-width:none;margin:24px auto 30px;position:relative;z-index:4;border:3px solid #10081e;border-radius:0;box-shadow:7px 7px 0 #10081e,0 0 0 2px #ff6cd5,0 0 35px #e33cff55;overflow:hidden;background:#fff4ff;transition:width .2s,margin .2s}
+.windowbar{height:34px;display:flex;align-items:center;gap:10px;padding:0 10px;background:linear-gradient(90deg,#ff59ca,#c77aff 58%,#8e8cff);border-bottom:3px solid #241039;color:#230a3d;font:8px/1.5 "Press Start 2P",monospace;cursor:grab;user-select:none;touch-action:none}
+.windowbar:active{cursor:grabbing}.window-title{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.window-icon{font-size:16px}.window-controls{display:flex;gap:5px}.window-control{width:20px;height:18px;border:2px solid #241039;background:#fff0fc;box-shadow:2px 2px 0 #241039;color:#241039;font:bold 12px/1 Arial;cursor:pointer;padding:0}.window-control.close{background:#ff76a9}.window-control.max{background:#b9ffbd}.window-control:hover{filter:brightness(1.08);transform:translateY(-1px)}
+.site .topbar{border-bottom:2px solid var(--hot)}
+.site.window-minimized{display:none}
+.site.window-maximized{position:relative;width:calc(100vw - 42px);max-width:none;margin:8px auto 70px;left:auto!important;top:auto!important}
+.desktop-icons{position:absolute;z-index:2;top:88px;left:18px;display:flex;flex-direction:column;gap:18px;width:90px}
+.desktop-icon{width:86px;min-height:77px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:6px;padding:6px 3px;border:1px solid transparent;background:transparent;color:#fff4ff;font:7px/1.8 "Press Start 2P",monospace;text-align:center;text-shadow:1px 2px #17051f;cursor:pointer}
+.desktop-icon .desktop-glyph{font:29px/1.2 "Nunito",sans-serif;filter:drop-shadow(2px 2px 0 #17051f);image-rendering:pixelated}
+.desktop-icon:hover,.desktop-icon:focus-visible{background:#dca7ff32;border:1px dotted #ffe3ff;outline:0}
+.desktop-right{left:auto;right:18px;align-items:center}
+.desktop-widget{position:absolute;z-index:2;right:20px;top:390px;width:178px;padding:10px;border:2px solid #f6d3ff;background:#281342d9;color:#ffe9ff;box-shadow:4px 4px 0 #10081e;font:7px/2 "Press Start 2P",monospace}
+.widget-head{padding-bottom:6px;margin-bottom:6px;border-bottom:1px dashed #ff8de1;color:#ffb9ef}
+.widget-line{display:flex;justify-content:space-between;gap:8px}.widget-line b{color:#9bffff;font-weight:400}
+.taskbar{position:fixed;z-index:20;bottom:0;left:0;right:0;min-height:47px;display:flex;align-items:center;gap:8px;padding:6px 12px;border-top:3px solid #10081e;background:linear-gradient(90deg,#ff65cb,#c78cff 45%,#8d8cff);box-shadow:0 -4px 0 #ffffff25;color:#210834}
+.start-button{display:flex;align-items:center;gap:7px;padding:7px 11px;border:2px solid #241039;background:#fff0fc;box-shadow:3px 3px 0 #241039;color:#241039;font:8px/1.6 "Press Start 2P",monospace;cursor:pointer;white-space:nowrap}
+.start-button:hover{background:#fff17b}.start-star{font-size:17px}
+.task-app{display:flex;align-items:center;gap:7px;max-width:260px;min-width:130px;padding:7px 10px;border:2px solid #241039;background:#e7baff;color:#241039;font:7px/1.5 "Press Start 2P",monospace;cursor:pointer;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.task-app.active{background:#fff0fc;box-shadow:inset 2px 2px 0 #b56ee5}.task-spacer{flex:1}
+.task-status{font:8px/1.6 "Press Start 2P",monospace;white-space:nowrap}
+.start-menu{position:fixed;z-index:30;left:12px;bottom:55px;width:min(285px,calc(100vw - 24px));padding:12px;border:3px solid #241039;background:#fff0fc;box-shadow:6px 6px 0 #10081e;display:none}
+.start-menu.open{display:block;animation:menu-in .12s steps(2,end)}
+@keyframes menu-in{from{transform:translateY(8px);opacity:.5}to{transform:none;opacity:1}}
+.start-menu-head{padding:12px;margin-bottom:10px;background:#2b1048;color:#ffdafa;font:8px/2 "Press Start 2P",monospace}
+.start-menu button{width:100%;display:flex;align-items:center;gap:10px;padding:10px;border:0;border-bottom:1px dashed #d69be8;background:transparent;text-align:left;color:#38134e;font:8px/1.7 "Press Start 2P",monospace;cursor:pointer}
+.start-menu button:hover{background:#ffd9f3}
+.desktop-tooltip{position:fixed;z-index:50;left:50%;top:12px;transform:translateX(-50%);padding:8px 12px;background:#fff0fc;border:2px solid #241039;box-shadow:3px 3px 0 #10081e;color:#321044;font:8px/1.7 "Press Start 2P",monospace;display:none}
+@media(max-width:900px){.site{width:calc(100vw - 36px);margin:8px auto 24px}.desktop-icons{top:58px;left:4px;width:auto;flex-direction:row;gap:2px}.desktop-icon{width:60px;min-height:53px;font-size:6px;padding:3px 1px}.desktop-icon .desktop-glyph{font-size:21px}.desktop-right{display:none}.desktop-widget{display:none}.windowbar{height:31px}.site.window-maximized{width:calc(100vw - 20px);margin:4px auto 65px}body{padding:100px 8px 65px}}
+@media(max-width:520px){body{padding:87px 5px 63px}.site{width:calc(100vw - 16px);margin:8px auto 18px}.desktop-icons{top:8px;left:3px;right:3px;justify-content:center}.desktop-icon{width:63px;min-height:50px;font-size:5px}.windowbar{font-size:6px;padding:0 6px}.window-control{width:17px;height:16px}.taskbar{padding:5px 6px;gap:5px;min-height:43px}.start-button{padding:6px 7px;font-size:7px}.start-button .start-label{display:none}.task-app{min-width:0;max-width:155px;padding:6px;font-size:6px}.task-status{font-size:6px}.site.window-maximized{width:calc(100vw - 12px)}}
+@media(prefers-reduced-motion:reduce){.start-menu.open{animation:none}}
+
+
+/* Desktop sticky notes: tiny rotating reminders, freshly shuffled on reload */
+.sticky-note{position:absolute;z-index:3;width:154px;min-height:116px;padding:17px 12px 12px;border:1px solid #c99e43;background:#fff2a8;color:#4c3151;box-shadow:4px 5px 0 #12081f77,0 2px 8px #12081f55;font:700 11px/1.65 "Nunito",sans-serif;transform:rotate(-4deg);text-align:center}
+.sticky-note:before{content:"";position:absolute;top:-7px;left:calc(50% - 19px);width:38px;height:13px;background:#ff8cd8aa;border:1px solid #d75da8;transform:rotate(2deg)}
+.sticky-note .note-label{display:block;margin-bottom:8px;font:6px/1.8 "Press Start 2P",monospace;letter-spacing:.2px;color:#9b3d81}
+.sticky-note .note-text{font:700 12px/1.5 "Nunito",sans-serif}
+.sticky-note.note-two{top:255px;left:23px;transform:rotate(3deg);background:#ffd6f0;border-color:#d88ab7}
+.sticky-note.note-two:before{background:#a7f8ffb8;border-color:#63bdca}
+.sticky-note.note-one{top:245px;right:23px;transform:rotate(4deg)}
+.sticky-note.note-two .note-label{color:#843e9d}
+.cv-summary{padding:16px;margin-bottom:18px;background:#ffe1f5;border:3px dashed #8d29d7;line-height:1.8}
+.cv-section{margin-top:20px}.cv-list{margin:8px 0 0;padding-left:20px}.cv-list li{margin:0 0 8px;line-height:1.7}.cv-entry{padding:16px 18px;margin-bottom:14px;border:3px solid #32104f;background:#fff;box-shadow:4px 4px 0 #c46aff}.cv-entry:nth-child(odd){background:#ffe8f7}.cv-entry h3{margin-bottom:5px}.cv-entry .meta{margin-bottom:7px}.cv-columns{display:grid;grid-template-columns:1fr 1fr;gap:14px}.cv-columns .card{height:100%}.cv-keywords{display:flex;gap:7px;flex-wrap:wrap}
+@media(max-width:1100px){.sticky-note{width:125px;min-height:100px;padding:13px 8px 8px}.sticky-note .note-text{font-size:11px}.sticky-note.note-two{left:7px;top:340px}.sticky-note.note-one{right:7px;top:340px}}
+@media(max-width:900px){.sticky-note{position:relative;top:auto!important;left:auto!important;right:auto!important;display:inline-flex;flex-direction:column;justify-content:center;width:calc(50% - 10px);min-height:85px;margin:0 3px 8px;vertical-align:top;transform:rotate(-2deg)!important}.sticky-note.note-two{transform:rotate(2deg)!important}.desktop-notes{position:absolute;z-index:2;top:58px;left:50%;transform:translateX(-50%);width:calc(100% - 140px);display:flex;justify-content:center;gap:5px}.sticky-note .note-label{font-size:5px}.sticky-note .note-text{font-size:10px}}
+@media(max-width:520px){.desktop-notes{top:58px;width:calc(100% - 130px)}.sticky-note{min-height:70px;padding:9px 5px 5px}.sticky-note .note-text{font-size:9px}.sticky-note .note-label{margin-bottom:4px}.cv-columns{grid-template-columns:1fr}}
+
+
+/* === HYPERPOP MAXIMALIST POLISH === */
+:root{--pink:#ff3fbf;--hot:#ff3f79;--purple:#853dff;--deep:#27103e;--lav:#c9a7ff;--cream:#fff8ff;--ink:#321443;--yellow:#ffe94f;--cyan:#48e8ff;--coral:#ff765f;--blue:#4a7dff;--orange:#ff9d27;--green:#6bf58d}
+body{font-family:"Nunito",system-ui,sans-serif;background-color:#ff4cbe;background-image:linear-gradient(135deg,rgba(255,76,190,.96) 0%,rgba(143,61,255,.92) 24%,rgba(69,124,255,.9) 45%,rgba(255,118,95,.92) 65%,rgba(255,157,39,.92) 82%,rgba(107,245,141,.9) 100%),linear-gradient(90deg,#ff3fbf,#853dff,#4a7dff,#ff765f,#ff9d27,#6bf58d);background-blend-mode:screen,normal}
+body:before{background-image:radial-gradient(#fff 1px,transparent 1.8px),radial-gradient(#ffe94f 1px,transparent 1.8px);background-size:17px 17px,31px 31px;opacity:.34}
+.site{border-color:#190927;box-shadow:7px 7px 0 #190927,0 0 0 3px #ff3fbf,0 0 0 7px #ffe94f,0 0 34px #48e8ff66;background:#fff8ff}
+.windowbar{background:linear-gradient(90deg,#ff3fbf 0%,#ff765f 19%,#ff9d27 36%,#ffe94f 51%,#6bf58d 66%,#48e8ff 82%,#a982ff 100%);color:#27103e}
+.site .topbar{background:linear-gradient(90deg,#27103e 0 18%,#853dff 18% 36%,#4a7dff 36% 54%,#ff3f79 54% 72%,#ff9d27 72% 86%,#6bf58d 86%);color:#fff}
+.hero{background:linear-gradient(115deg,#ffb3e6 0%,#ffd0a8 25%,#fff3a8 43%,#b6ffd0 61%,#b8f3ff 78%,#d7bcff 100%);border-bottom-color:#27103e}
+h1{font:700 clamp(30px,5vw,49px)/1.12 "Fredoka","Nunito",sans-serif;letter-spacing:-1.2px;color:#6b23d5;text-shadow:3px 3px 0 #ff79c9,6px 6px 0 #fff}
+h2{font:600 clamp(19px,2.8vw,27px)/1.25 "Fredoka","Nunito",sans-serif;letter-spacing:.2px;color:#7423ca;text-shadow:2px 2px 0 #ffd84a;border-image:linear-gradient(90deg,#ff3fbf,#ff765f,#ff9d27,#ffe94f,#6bf58d,#48e8ff,#853dff) 1}
+h3{font:600 17px/1.35 "Fredoka","Nunito",sans-serif;color:#6322a9;letter-spacing:.1px}
+.eyebrow,.nav button,.btn,.topbar,.windowbar,.start-menu-head,.start-menu button,.desktop-icon,.desktop-widget,.task-status,.task-app,.start-button,.desktop-tooltip,.sticky-note .note-label{font-family:"Press Start 2P",monospace}
+.nav{background:linear-gradient(90deg,#ff3fbf,#ff765f,#ff9d27,#ffe94f,#6bf58d,#48e8ff,#853dff);border-bottom-color:#27103e}
+.nav button{color:#27103e}
+.nav button:hover,.nav button[aria-selected="true"]{background:#27103e;color:#ffe94f;box-shadow:inset 0 -4px #48e8ff}
+.panel{background-color:#fff8ff;background-image:radial-gradient(#d7baff 1px,transparent 1.6px),linear-gradient(135deg,#fff8ff 0%,#fff3fa 48%,#f0fbff 100%);background-size:20px 20px,100% 100%}
+.card{border-color:#27103e;box-shadow:5px 5px 0 #853dff}
+.card:nth-child(6n+1){background:#ffe0f4}.card:nth-child(6n+2){background:#e5ddff}.card:nth-child(6n+3){background:#d9f6ff}.card:nth-child(6n+4){background:#ffe0d4}.card:nth-child(6n+5){background:#fff2a8}.card:nth-child(6n){background:#d9ffdf}
+.cv-summary{background:linear-gradient(120deg,#ffe0f4,#e5ddff 35%,#d9f6ff 67%,#fff2a8);border:3px solid #27103e;box-shadow:5px 5px 0 #ff765f}
+.cv-section{padding:16px 0 2px;margin-top:22px;border-top:4px solid transparent;border-image:linear-gradient(90deg,#ff3fbf,#ff765f,#ff9d27,#ffe94f,#6bf58d,#48e8ff,#853dff) 1}
+.cv-section>h3{display:flex;align-items:center;gap:10px;margin:0 0 14px;color:#5d1aa5;font-size:22px}
+.cv-section>h3:before{content:"✦";display:inline-grid;place-items:center;width:30px;height:30px;flex:none;background:#ffe94f;border:2px solid #27103e;color:#27103e;box-shadow:3px 3px 0 #ff765f;font-size:17px}
+.cv-entry{border:2px solid #27103e;box-shadow:4px 4px 0 #27103e;margin-bottom:16px;padding:18px;background:#fff}
+.cv-entry:nth-of-type(6n+1){background:#ffe4f4}.cv-entry:nth-of-type(6n+2){background:#e9e0ff}.cv-entry:nth-of-type(6n+3){background:#dff8ff}.cv-entry:nth-of-type(6n+4){background:#ffe4d9}.cv-entry:nth-of-type(6n+5){background:#fff4b5}.cv-entry:nth-of-type(6n){background:#e0ffe4}
+.cv-entry h3{font-size:20px;color:#4e167e;margin-bottom:5px}
+.cv-entry .meta{font-size:12px;color:#8d276d;line-height:1.6}
+.cv-prose{margin-top:8px}
+.cv-prose p{margin:0 0 9px;padding-left:12px;border-left:3px solid #ff3fbf;line-height:1.75;font-size:14px}
+.cv-prose p:nth-child(6n+2){border-left-color:#853dff}.cv-prose p:nth-child(6n+3){border-left-color:#4a7dff}.cv-prose p:nth-child(6n+4){border-left-color:#ff765f}.cv-prose p:nth-child(6n+5){border-left-color:#ff9d27}.cv-prose p:nth-child(6n){border-left-color:#31bd70}
+.cv-columns .card{border:2px solid #27103e;box-shadow:4px 4px 0 #ff765f}
+.cv-columns .card h3{font-size:19px}
+.cv-keywords .tag:nth-child(6n+1){background:#ffb7e4}.cv-keywords .tag:nth-child(6n+2){background:#d7c4ff}.cv-keywords .tag:nth-child(6n+3){background:#b7edff}.cv-keywords .tag:nth-child(6n+4){background:#ffc4b2}.cv-keywords .tag:nth-child(6n+5){background:#ffe98f}.cv-keywords .tag:nth-child(6n){background:#baffc7}
+.tag{border-color:#27103e;color:#321443}
+.callout{background:linear-gradient(110deg,#ffdef3,#fff0a8,#d9f8ff);border-color:#853dff}
+.subtitle{color:#c91a86}
+.sticky-note.note-one{background:#fff2a8;border-color:#d5a82e}.sticky-note.note-two{background:#bff6ff;border-color:#55b8c8}
+.machine{background:linear-gradient(135deg,#ffb9e7,#d3c1ff 35%,#b5f3ff 65%,#fff0a6);box-shadow:6px 6px 0 #ff765f}
+.taskbar{background:linear-gradient(90deg,#ff3fbf,#ff765f,#ff9d27,#ffe94f,#6bf58d,#48e8ff,#a982ff)}
+.start-button{background:#fff8ff}.task-app{background:#d7c4ff}
+a{color:#6725c7}a:hover{color:#e21c81}
+@media(max-width:700px){h1{font-size:clamp(28px,8vw,40px)}h2{font-size:22px}.cv-section>h3{font-size:20px}.cv-entry{padding:14px}.cv-entry h3{font-size:18px}.cv-prose p{font-size:14px}}
+
+/* === TABLETOP PIXEL COMPUTER HOUSING === */
+body{padding:26px 10px 110px;background:#e6b4d0;background-image:linear-gradient(90deg,rgba(71,31,85,.07) 1px,transparent 1px),linear-gradient(rgba(71,31,85,.07) 1px,transparent 1px),radial-gradient(ellipse at 50% 20%,#fff0cb 0%,#e9b8d1 45%,#b98bc9 100%);background-size:12px 12px,12px 12px,100% 100%;background-attachment:fixed}
+body:before{content:"";background-image:radial-gradient(#fff 1px,transparent 1.6px),radial-gradient(#8b4b9d 1px,transparent 1.6px);background-size:19px 19px,31px 31px;opacity:.16}
+body:after{background:linear-gradient(transparent 50%,rgba(54,20,65,.035) 50%);background-size:100% 4px;opacity:.6}
+.computer-shell{position:relative;isolation:isolate;width:min(1480px,98vw);margin:18px auto 0;padding:32px 28px 70px;background:linear-gradient(135deg,#fff1dc 0%,#e9d5ce 16%,#cbb8c4 48%,#f4e5d6 76%,#c9b6c9 100%);border:5px solid #4c3a58;box-shadow:inset 0 0 0 3px #fff7e9,inset 0 0 0 7px #aa91ad,8px 9px 0 #47324e,12px 14px 0 rgba(47,24,57,.35);overflow:visible}
+.computer-shell:before{content:"";position:absolute;z-index:-1;inset:13px 13px 60px;background:#241239;border:4px solid #483550;box-shadow:inset 0 0 0 3px #8f7896,inset 0 0 0 6px #160b23;pointer-events:none}
+.computer-shell:after{content:"";position:absolute;left:18px;right:18px;bottom:40px;height:7px;background:repeating-linear-gradient(90deg,#6b586f 0 3px,#c8b4c7 3px 6px);opacity:.75;pointer-events:none}
+.computer-shell .site{width:min(1050px,calc(100% - 250px));max-width:none;margin:24px auto 30px;border:4px solid #27103e;box-shadow:5px 5px 0 #13091d,0 0 0 2px #ffe94f,0 0 0 5px #ff3fbf;background:#fff8ff}
+.computer-shell .site.window-maximized{width:calc(100% - 12px);margin:8px auto 30px}
+.computer-shell .desktop-icons{top:92px;left:21px}
+.computer-shell .desktop-right{left:auto;right:21px}
+.computer-shell .desktop-widget{right:22px;top:400px}
+.computer-shell .desktop-notes{z-index:3}
+.computer-controls{position:absolute;left:24px;right:24px;bottom:12px;height:24px;display:flex;align-items:center;gap:13px;color:#68536e;font:7px/1.5 "Press Start 2P",monospace}
+.speaker-grille{display:block;width:115px;height:12px;background:repeating-linear-gradient(90deg,#84718a 0 2px,#d8c8d4 2px 5px);border:1px solid #9d899f;box-shadow:inset 0 1px 1px #fff}
+.computer-badge{margin-left:auto;padding:4px 7px;border:1px solid #a996a8;background:linear-gradient(#f9ede4,#d7c5d4);box-shadow:1px 1px 0 #9a879e;letter-spacing:.3px}
+.power-led{width:9px;height:9px;border:2px solid #65506d;border-radius:50%;background:#7df58b;box-shadow:0 0 7px #6bf58d}
+.computer-keyboard{position:relative;width:min(980px,88vw);height:105px;margin:-1px auto 0;padding:15px 24px 12px;background:linear-gradient(180deg,#f4e6d8 0%,#d0becd 60%,#b7a4bb 100%);border:4px solid #62506a;border-top:2px solid #f9e9e0;box-shadow:inset 0 0 0 2px #fff4e6,5px 8px 0 #47324e,9px 12px 0 rgba(47,24,57,.28);clip-path:polygon(3% 0,97% 0,100% 100%,0 100%)}
+.keyboard-topline{height:5px;margin:0 4% 8px;background:repeating-linear-gradient(90deg,#99849e 0 4px,#d7c5d5 4px 8px);opacity:.8}
+.key-row{height:19px;margin:0 2% 6px;background:repeating-linear-gradient(90deg,#fdf1e5 0 28px,#a995ad 28px 31px,#e0cedb 31px 34px);border:1px solid #9b879e;box-shadow:0 2px 0 #88758e}
+.key-row.short-row{width:78%;margin-left:11%;height:16px;background:repeating-linear-gradient(90deg,#fdf1e5 0 25px,#a995ad 25px 28px,#e0cedb 28px 31px)}
+.keyboard-trackpad{position:absolute;right:8%;bottom:10px;width:100px;height:12px;border:2px solid #b09cb3;background:#d8c7d8;box-shadow:inset 0 1px 2px #9e8aa5}
+.computer-shell .taskbar{left:calc((100vw - min(1480px,98vw))/2 + 33px);right:calc((100vw - min(1480px,98vw))/2 + 33px);bottom:calc(105px + 20px);border:2px solid #27103e;box-shadow:3px 3px 0 #160b23}
+.computer-shell .start-menu{position:fixed}
+@media(max-width:900px){
+ body{padding:18px 8px 85px}
+ .computer-shell{padding-top:105px}
+ .computer-shell .start-menu{bottom:145px}
+ .computer-shell{width:calc(100vw - 18px);padding:20px 10px 65px;margin-top:12px;border-width:4px;box-shadow:inset 0 0 0 2px #fff7e9,5px 6px 0 #47324e}
+ .computer-shell:before{inset:8px 8px 54px;border-width:3px}
+ .computer-shell:after{left:12px;right:12px;bottom:35px}
+ .computer-shell .site{width:calc(100% - 8px);margin:15px auto 20px}
+ .computer-shell .site.window-maximized{width:calc(100% - 8px);margin:6px auto 20px}
+ .computer-shell .desktop-icons{top:42px;left:3px}
+ .computer-shell .desktop-right{left:auto;right:3px}
+ .computer-shell .desktop-widget{display:none}
+ .computer-controls{left:14px;right:14px;bottom:7px;height:20px}
+ .speaker-grille{width:60px;height:8px}
+ .computer-badge{font-size:5px}
+ .computer-keyboard{width:86vw;height:82px;padding:10px 15px 8px}
+ .key-row{height:13px;margin-bottom:5px}
+ .key-row.short-row{height:11px}
+ .keyboard-trackpad{width:65px;height:8px;bottom:7px}
+ .computer-shell .taskbar{left:12px;right:12px;bottom:calc(82px + 16px)}
+}
+@media(max-width:520px){
+ body{padding:12px 4px 75px}
+ .computer-shell{padding-top:102px}
+ .computer-shell .start-menu{bottom:132px}
+ .computer-shell{width:calc(100vw - 10px);padding:13px 4px 58px;margin-top:8px;border-width:3px;box-shadow:inset 0 0 0 2px #fff7e9,3px 4px 0 #47324e}
+ .computer-shell:before{inset:6px 5px 48px;border-width:2px}
+ .computer-shell:after{left:8px;right:8px;bottom:31px;height:5px}
+ .computer-shell .site{width:calc(100% - 4px);margin:12px auto 15px}
+ .computer-shell .desktop-icons{top:37px;left:0}
+ .computer-shell .desktop-right{right:0}
+ .computer-controls{left:9px;right:9px;bottom:5px;gap:6px}
+ .speaker-grille{width:36px}
+ .computer-badge{font-size:4px;padding:3px}
+ .computer-keyboard{width:88vw;height:64px;padding:8px 10px 6px;border-width:3px}
+ .keyboard-topline{margin-bottom:5px;height:3px}
+ .key-row{height:10px;margin-bottom:4px}
+ .key-row.short-row{height:8px}
+ .keyboard-trackpad{width:45px;height:6px;bottom:5px}
+ .computer-shell .taskbar{left:6px;right:6px;bottom:calc(64px + 12px);min-height:40px}
+}
+@media(prefers-reduced-motion:reduce){.computer-shell,.computer-keyboard{scroll-behavior:auto}}
+
+
+/* === PINK TABLETOP COMPUTER: THE PORTFOLIO IS THE SCREEN === */
+body{padding:10px;background:#ff00a8;background-image:linear-gradient(90deg,rgba(105,0,70,.08) 1px,transparent 1px),linear-gradient(rgba(105,0,70,.08) 1px,transparent 1px),radial-gradient(ellipse at 50% 15%,#ff9fe5 0%,#ff27b6 43%,#c900ff 100%);background-size:12px 12px,12px 12px,100% 100%;background-attachment:fixed}
+body:before{background-image:radial-gradient(#fff 1px,transparent 1.6px),radial-gradient(#ff7bd9 1px,transparent 1.6px);background-size:19px 19px,31px 31px;opacity:.25}
+body:after{background:linear-gradient(transparent 50%,rgba(54,0,45,.035) 50%);background-size:100% 4px;opacity:.6}
+.computer-shell{height:calc(100vh - 20px);min-height:600px;max-height:1200px;display:flex;flex-direction:column;gap:0;width:min(1480px,98vw);margin:0 auto;padding:18px 24px 12px;background:linear-gradient(135deg,#ff4bc5 0%,#ff00a8 30%,#f500b9 58%,#ff62d0 78%,#d9009e 100%);border:5px solid #79004f;box-shadow:inset 0 0 0 3px #ffb4e8,inset 0 0 0 7px #e600a4,8px 9px 0 #5b003e,12px 14px 0 rgba(47,0,43,.35)}
+.computer-shell:before{inset:10px 12px 138px;background:#241239;border:4px solid #79005b;box-shadow:inset 0 0 0 3px #ff83dc,inset 0 0 0 6px #160b23;pointer-events:none}
+.computer-shell:after{left:18px;right:18px;bottom:124px;height:7px;background:repeating-linear-gradient(90deg,#ad007b 0 3px,#ff9ce3 3px 6px);opacity:.9;pointer-events:none}
+.computer-shell .site{order:1;flex:1 1 auto;min-height:0;height:auto;max-height:none;overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain;scrollbar-color:#ff35b8 #351047;scrollbar-width:thin;width:calc(100% - 10px);max-width:none;margin:5px auto 8px;border:4px solid #4b0647;box-shadow:5px 5px 0 #13091d,0 0 0 2px #ffe94f,0 0 0 5px #ff3fbf;background:#fff8ff}
+.computer-shell .site::-webkit-scrollbar{width:13px}
+.computer-shell .site::-webkit-scrollbar-track{background:#351047;border-left:2px solid #ff8cde}
+.computer-shell .site::-webkit-scrollbar-thumb{background:linear-gradient(#ff3fbf,#ff9d27,#ffe94f,#6bf58d,#48e8ff,#853dff);border:2px solid #351047}
+.computer-shell .site.window-maximized{order:1;flex:1 1 auto;min-height:0;height:auto;width:calc(100% - 10px);margin:5px auto 8px}
+.computer-shell .desktop-icons,.computer-shell .desktop-widget,.computer-shell .start-menu,.computer-shell .taskbar,.computer-shell .desktop-tooltip{display:none!important}
+.computer-shell .windowbar,.computer-shell .topbar{display:none!important}
+.computer-shell .desktop-notes{z-index:3}
+.computer-controls{order:2;position:relative;left:auto;right:auto;bottom:auto;flex:0 0 20px;height:20px;margin:0 18px 4px;display:flex;align-items:center;gap:13px;color:#680047;font:7px/1.5 "Press Start 2P",monospace}
+.speaker-grille{display:block;width:115px;height:12px;background:repeating-linear-gradient(90deg,#ff28b9 0 2px,#ffb4e8 2px 5px);border:1px solid #a0006f;box-shadow:inset 0 1px 1px #fff}
+.computer-badge{margin-left:auto;padding:4px 7px;border:1px solid #a90076;background:linear-gradient(#fff0fa,#ff85d9);color:#680047;box-shadow:1px 1px 0 #a0006f;letter-spacing:.3px}
+.power-led{width:9px;height:9px;border:2px solid #680047;border-radius:50%;background:#7df58b;box-shadow:0 0 7px #6bf58d}
+.computer-keyboard{order:3;position:relative;flex:0 0 104px;width:min(980px,88vw);height:104px;margin:0 auto;padding:12px 24px 10px;background:linear-gradient(180deg,#ff6bd2 0%,#f000a6 55%,#ad007f 100%);border:4px solid #680047;border-top:3px solid #ffc3ec;box-shadow:inset 0 0 0 2px #ffb4e8,5px 6px 0 #5b003e,9px 9px 0 rgba(72,0,55,.28);clip-path:polygon(3% 0,97% 0,100% 100%,0 100%)}
+.keyboard-topline{height:5px;margin:0 4% 7px;background:linear-gradient(90deg,#ff3fbf,#ff765f,#ff9d27,#ffe94f,#6bf58d,#48e8ff,#853dff);border:1px solid #690047;opacity:1}
+.key-row,.key-row.short-row{height:18px;margin:0 2% 6px;border:2px solid #4c0749;box-shadow:0 3px 0 #690047;background:repeating-linear-gradient(90deg,#ff3fbf 0 23px,#4c0749 23px 26px,#ff765f 26px 49px,#4c0749 49px 52px,#ff9d27 52px 75px,#4c0749 75px 78px,#ffe94f 78px 101px,#4c0749 101px 104px,#6bf58d 104px 127px,#4c0749 127px 130px,#48e8ff 130px 153px,#4c0749 153px 156px,#853dff 156px 179px,#4c0749 179px 182px)}
+.key-row.short-row{width:78%;margin-left:11%;height:15px}
+.keyboard-trackpad{position:absolute;right:8%;bottom:8px;width:100px;height:10px;border:2px solid #680047;background:linear-gradient(90deg,#ff3fbf,#ff9d27,#ffe94f,#6bf58d,#48e8ff,#853dff);box-shadow:inset 0 1px 2px #a0006f}
+@media(max-width:900px){
+ body{padding:7px}
+ .computer-shell{width:calc(100vw - 14px);height:calc(100svh - 14px);min-height:560px;padding:12px 9px 8px;border-width:4px;box-shadow:inset 0 0 0 2px #ffb4e8,5px 6px 0 #5b003e}
+ .computer-shell:before{inset:7px 8px 116px;border-width:3px}
+ .computer-shell:after{left:12px;right:12px;bottom:103px}
+ .computer-shell .site,.computer-shell .site.window-maximized{width:calc(100% - 8px);margin:5px auto 5px}
+ .computer-shell .desktop-widget,.computer-shell .desktop-icons{display:none!important}
+ .computer-controls{margin:0 8px 4px;height:17px;flex-basis:17px}
+ .computer-keyboard{width:86vw;flex-basis:80px;height:80px;padding:9px 15px 7px}
+ .key-row{height:13px;margin-bottom:5px}
+ .key-row.short-row{height:11px}
+ .keyboard-trackpad{width:65px;height:8px;bottom:6px}
+}
+@media(max-width:520px){
+ body{padding:4px}
+ .computer-shell{width:calc(100vw - 8px);height:calc(100svh - 8px);min-height:520px;padding:8px 4px 6px;border-width:3px;box-shadow:inset 0 0 0 2px #ffb4e8,3px 4px 0 #5b003e}
+ .computer-shell:before{inset:5px 5px 94px;border-width:2px}
+ .computer-shell:after{left:8px;right:8px;bottom:83px;height:5px}
+ .computer-shell .site,.computer-shell .site.window-maximized{width:calc(100% - 4px);margin:4px auto 3px}
+ .computer-controls{margin:0 4px 3px;gap:6px;height:15px;flex-basis:15px}
+ .speaker-grille{width:36px;height:8px}
+ .computer-badge{font-size:4px;padding:3px}
+ .computer-keyboard{width:88vw;flex-basis:62px;height:62px;padding:7px 10px 5px;border-width:3px}
+ .keyboard-topline{margin-bottom:4px;height:3px}
+ .key-row{height:9px;margin-bottom:4px}
+ .key-row.short-row{height:8px}
+ .keyboard-trackpad{width:45px;height:6px;bottom:4px}
+}
+
+
+/* === PINK CYBERCORE / INDIE WEB REWORK — preserves both arcade games === */
+:root{--pink:#ff28b9;--hot:#ff008c;--purple:#a020f0;--deep:#21001f;--lav:#e7a5ff;--cream:#fff3fc;--ink:#3a0739;--yellow:#fff16b;--cyan:#8ffaff}
+html{scrollbar-color:#ff28b9 #260020}
+body{font-family:"Nunito",system-ui,sans-serif;background:#ff00a8;background-image:radial-gradient(circle at 15% 10%,#ff8de2 0,transparent 27%),radial-gradient(circle at 88% 30%,#9c2dff 0,transparent 30%),linear-gradient(135deg,#ff00a8 0%,#c900ff 42%,#5b0b83 100%);background-attachment:fixed;cursor:crosshair}
+body:before{content:"✦　♡　★　✧　♡　✦　☆　♡　✧";color:#fff;opacity:.23;font-size:28px;letter-spacing:1.3vw;text-shadow:0 0 10px #ffb4f0}
+body:after{background:repeating-linear-gradient(0deg,rgba(255,255,255,.035) 0 1px,transparent 1px 4px),radial-gradient(ellipse at center,transparent 45%,#1d001b88 100%);opacity:.65}
+.computer-shell{background:linear-gradient(145deg,#ff9be5 0%,#ff22ba 22%,#c80098 48%,#ff5ed1 67%,#8e0878 100%);border-color:#600044;box-shadow:inset 0 0 0 3px #ffd7f4,inset 0 0 0 7px #ff28b9,8px 9px 0 #510039,0 0 36px #ff3acb99}
+.computer-shell:before{background:linear-gradient(135deg,#22001f,#36003d 60%,#160019);border-color:#68004f;box-shadow:inset 0 0 0 3px #ff7bd8,inset 0 0 0 6px #160b23}
+.computer-shell:after{background:repeating-linear-gradient(90deg,#92006d 0 3px,#ffb2e8 3px 6px)}
+.computer-keyboard{background:linear-gradient(180deg,#ffb2e8 0%,#ff42c3 35%,#bd007f 100%);border-color:#650044;box-shadow:inset 0 0 0 2px #ffe4f7,5px 6px 0 #5b003e,0 0 22px #ff28b955}
+.keyboard-topline{background:linear-gradient(90deg,#ff28b9,#ffb9eb,#fff,#ff7bd8,#a020f0)}
+.key-row,.key-row.short-row{background:repeating-linear-gradient(90deg,#ffd6f3 0 23px,#610044 23px 26px,#ff62cd 26px 49px,#610044 49px 52px,#f7c6ff 52px 75px,#610044 75px 78px);border-color:#600044;box-shadow:0 3px 0 #600044}
+.keyboard-trackpad{background:linear-gradient(90deg,#ff28b9,#ffb9eb,#fff,#a020f0);border-color:#600044}
+.computer-controls{color:#69004d}
+.computer-badge{background:linear-gradient(135deg,#fff7fc,#ff83da 48%,#cba0ff);color:#510039;border-color:#8c0064}
+.site{background:#fff3fc;border-color:#270020;box-shadow:6px 6px 0 #160015,0 0 0 2px #ff28b9,0 0 0 5px #ffb5e8,0 0 34px #ff00bd66}
+.site .topbar{background:linear-gradient(90deg,#26001f,#59005d 50%,#21001f);color:#ffb9ec;border-bottom-color:#ff28b9}
+.windowbar{background:linear-gradient(180deg,#fff7fd 0%,#ffb2e8 22%,#d7c6dc 48%,#fff 52%,#f28bd6 76%,#a020f0 100%);color:#31002b;border-bottom:3px solid #4b0040;text-shadow:0 1px #fff}
+.window-control{background:linear-gradient(135deg,#fff,#ffb1e7 55%,#b76dce);border-color:#39002f;box-shadow:2px 2px 0 #39002f}
+.window-control.close{background:linear-gradient(#fff0f4,#ff508c)}.window-control.max{background:linear-gradient(#fff,#baffd8)}
+.hero{background:radial-gradient(circle at 90% 20%,#fff 0 2px,transparent 3px),linear-gradient(125deg,#ffb3e8 0%,#ff50c7 34%,#df8cff 67%,#fff0fb 100%);border-bottom:4px solid #280022}
+h1{font-family:"Press Start 2P",monospace;font-size:clamp(20px,3.8vw,36px);line-height:1.65;letter-spacing:-1px;color:#fff;text-shadow:3px 3px 0 #ff008c,6px 6px 0 #7800a8,0 0 18px #ff45ca}
+h2{font-family:"Press Start 2P",monospace;font-size:clamp(12px,2vw,17px);line-height:1.9;color:#a00072;text-shadow:2px 2px 0 #ffb2e8;border-image:linear-gradient(90deg,#ff28b9,#fff,#c85aff,#ff28b9) 1}
+h3{font-family:"Fredoka","Nunito",sans-serif;color:#9b0875;font-size:19px}
+.nav{background:linear-gradient(90deg,#ff00a8,#ff52cc,#c52bff,#ff00a8);border-bottom:4px solid #250020}
+.nav button{color:#fff;font-size:8px;text-shadow:1px 1px #79005b}
+.nav button:hover,.nav button[aria-selected=true]{background:#250020;color:#ff8bdc;box-shadow:inset 0 -4px #ff28b9}
+.panel{background-color:#fff3fc;background-image:radial-gradient(#ffb8e8 1px,transparent 1.5px),linear-gradient(135deg,#fff5fc,#ffeafa 55%,#f4e5ff);background-size:19px 19px,100% 100%}
+.card{border:2px solid #310027;box-shadow:5px 5px 0 #ff28b9,8px 8px 0 #a020f044;transition:transform .16s,box-shadow .16s}
+.card:hover{transform:translate(-2px,-3px) rotate(-.3deg);box-shadow:7px 8px 0 #ff28b9,11px 11px 0 #a020f055}
+.card:nth-child(6n+1){background:#ffe0f5}.card:nth-child(6n+2){background:#f0dfff}.card:nth-child(6n+3){background:#fff4fc}.card:nth-child(6n+4){background:#ffd2ee}.card:nth-child(6n+5){background:#f7eaff}.card:nth-child(6n){background:#ffe7f7}
+.cv-summary{background:linear-gradient(120deg,#ffe0f5,#f0dfff 55%,#fff);border:3px solid #310027;box-shadow:5px 5px 0 #ff28b9}
+.cv-section{border-image:linear-gradient(90deg,#ff28b9,#fff,#a020f0,#ff28b9) 1}
+.cv-section>h3:before{background:linear-gradient(135deg,#fff,#ff9cde 40%,#cbb5d8 55%,#fff 65%,#ff5acb);box-shadow:3px 3px 0 #a00072}
+.cv-entry{border:2px solid #310027;box-shadow:4px 4px 0 #ff28b9}
+.cv-entry:nth-of-type(6n+1){background:#ffe4f4}.cv-entry:nth-of-type(6n+2){background:#f0e0ff}.cv-entry:nth-of-type(6n+3){background:#fff}.cv-entry:nth-of-type(6n+4){background:#ffdced}.cv-entry:nth-of-type(6n+5){background:#f7eaff}.cv-entry:nth-of-type(6n){background:#ffeefa}
+.tag{background:linear-gradient(135deg,#fff,#ffd2f0);border-color:#4a003a}
+.callout{background:linear-gradient(110deg,#ffe0f5,#fff,#f1d7ff);border-color:#d51a9c}
+a{color:#a00087}a:hover{color:#f0008c;text-shadow:0 0 7px #ffb2e8}
+.btn{background:linear-gradient(135deg,#fff,#ff83d9 45%,#d2a3ff);color:#33002a;box-shadow:3px 3px 0 #77005c}
+.btn:hover{background:linear-gradient(135deg,#fff,#ffb5e9,#fff)}
+.sticky-note.note-one{background:#fff1a6;border-color:#dba63e}.sticky-note.note-two{background:#ffc9ee;border-color:#d75da8}
+.machine{background:linear-gradient(135deg,#ffb3e8,#f0d5ff 45%,#fff);box-shadow:6px 6px 0 #ff28b9}
+.footer{background:linear-gradient(90deg,#21001f,#4c0046,#21001f);border-top:4px solid #ff28b9}
+.footer a{color:#ff9ee1}
+.taskbar{background:linear-gradient(90deg,#ff00a8,#ff6ed4 40%,#c88aff 75%,#ff00a8)}
+.start-button,.task-app{background:linear-gradient(135deg,#fff,#ffc6ed 45%,#d4b8e8)}
+.desktop-widget{border-color:#ff8cde;background:#27001fef;box-shadow:4px 4px 0 #ff28b9}
+.desktop-tooltip{border-color:#ff28b9;box-shadow:3px 3px 0 #ff28b9}
+::selection{background:#ff28b9;color:#fff}
+a,button{cursor:pointer}
+@media(max-width:700px){h1{font-size:clamp(17px,5vw,27px);line-height:1.8}.card:hover{transform:none}}
+@media(prefers-reduced-motion:reduce){.card{transition:none}}
+
+
+/* === NO COMPUTER SHELL: full-page pink cybercore / maximalist indie web === */
+:root{--pink:#ff35b8;--hot:#ff078c;--purple:#8b35ff;--deep:#351044;--lav:#d8b1ff;--cream:#fff4ff;--ink:#35104e;--yellow:#fff17b;--cyan:#9bffff}
+html{scroll-padding-top:18px}
+body{padding:clamp(12px,2.2vw,30px);background-color:#ff35b8;background-image:radial-gradient(circle,#fff8ff 0 1.5px,transparent 2.4px),radial-gradient(circle,rgba(255,255,255,.48) 0 1px,transparent 2px),linear-gradient(135deg,#ff35b8 0%,#ff9be4 32%,#c47aff 66%,#7d43ff 100%);background-size:29px 29px,53px 53px,100% 100%;cursor:crosshair}
+body:before{content:"✦  ☆  ♡  ✧  🎀  ✿  ★  ✦";line-height:16vh;letter-spacing:1.4vw;opacity:.38}
+body:after{background:repeating-linear-gradient(0deg,transparent 0 3px,rgba(255,255,255,.08) 3px 4px);opacity:.5}
+.computer-shell{display:contents!important}
+.computer-shell:before,.computer-shell:after{display:none!important;content:none!important}
+.desktop-notes,.desktop-icons,.desktop-widget,.start-menu,.taskbar,.desktop-tooltip,.computer-controls,.computer-keyboard{display:none!important}
+.site{width:min(1240px,100%);max-width:1240px;margin:0 auto 36px;border:4px solid #351044;box-shadow:10px 10px 0 #351044,16px 16px 0 rgba(255,31,172,.45);overflow:visible;background:#fff4ff;position:relative}
+.windowbar{display:none!important}
+.site .topbar{min-height:38px;padding:12px 18px;background:linear-gradient(90deg,#ff078c,#d83fff,#7847ff);color:#fff7ff;border-bottom:4px solid #351044;font-size:8px;letter-spacing:.04em}
+.hero{grid-template-columns:minmax(0,1fr) 155px;padding:clamp(22px,4vw,52px);background:linear-gradient(125deg,#ff9cde 0%,#fff0ff 44%,#d5aaff 100%);border-bottom:4px solid #351044}
+.hero:after{content:"✦ INTERNET GIRL ✦";position:absolute;right:20px;bottom:13px;font:7px/1.8 "Press Start 2P",monospace;color:#8b24c8;transform:rotate(-3deg)}
+h1{max-width:900px}
+.nav{position:sticky;top:0;z-index:20;border-bottom:4px solid #351044;box-shadow:0 4px 0 rgba(255,7,140,.25)}
+.nav button{padding:13px 10px}
+.panel{padding:clamp(20px,3.6vw,42px);background-color:#fff6ff;background-image:radial-gradient(#e5baff 1.2px,transparent 1.6px),linear-gradient(135deg,rgba(255,53,184,.04),rgba(139,53,255,.06));background-size:20px 20px,100% 100%}
+.grid{gap:20px}
+.card{border-width:3px;box-shadow:6px 6px 0 #c46aff,10px 10px 0 rgba(255,53,184,.12);transition:transform .18s ease,box-shadow .18s ease}
+.card:nth-child(3n+1){transform:rotate(-.5deg)}
+.card:nth-child(3n+2){transform:rotate(.6deg)}
+.card:hover{transform:translateY(-4px) rotate(0deg);box-shadow:8px 8px 0 #ff35b8,12px 12px 0 #c46aff}
+h2{position:relative;text-wrap:balance}
+h2:after{content:" ✧";color:#ff078c}
+.tag{box-shadow:2px 2px 0 #351044;transform:rotate(-1deg)}
+.tag:nth-child(even){transform:rotate(1.5deg);background:#e8d2ff}
+.btn{box-shadow:4px 4px 0 #8b35ff}
+.footer{background:linear-gradient(100deg,#351044,#642078,#351044);border-top:4px solid #ff078c}
+.avatar{transform:rotate(2deg);box-shadow:7px 7px 0 #ff078c,12px 12px 0 #8b35ff}
+.avatar:before{content:"♡";position:absolute;z-index:2;left:-17px;bottom:-17px;font-size:35px;color:#ff078c;text-shadow:2px 2px #fff}
+.arcade-grid{gap:22px}
+.machine{border-color:#351044;box-shadow:7px 7px 0 #ff35b8,11px 11px 0 #8b35ff}
+a,button{cursor:crosshair}
+a:focus-visible,button:focus-visible{outline:3px dashed #ff078c;outline-offset:4px}
+@keyframes sticker-wiggle{0%,100%{transform:rotate(-4deg) translateY(0)}50%{transform:rotate(4deg) translateY(-5px)}}
+.hero .sticker{animation:sticker-wiggle 3s ease-in-out infinite}
+@media(max-width:650px){body{padding:8px}.site{border-width:3px;box-shadow:5px 5px 0 #351044,8px 8px 0 rgba(255,31,172,.45)}.hero{grid-template-columns:1fr;gap:22px}.avatar{grid-row:1;width:110px}.hero:after{display:none}.nav{position:relative}.nav button{flex:1 0 33%;font-size:7px;padding:10px 5px}.grid,.arcade-grid{grid-template-columns:1fr}.card:nth-child(n){transform:none}.panel{padding:18px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+
+
+/* === COQUETTE SCIENTIST'S SCRAPBOOK / BOTANICAL RESEARCH ARCHIVE === */
+:root{--pink:#d98ba8;--hot:#a94770;--purple:#69516f;--deep:#34263b;--lav:#d9c6d9;--cream:#f8f0df;--ink:#33283a;--yellow:#e8d99d;--cyan:#a9bca6;--sage:#c8d0b7;--moss:#66765b;--paper:#fbf5e8;--plum:#49334e}
+html{background:#c7cdb7}
+body{padding:clamp(10px,2vw,28px);font-family:Nunito,system-ui,sans-serif;color:#33283a;background-color:#c3cbb3;background-image:radial-gradient(circle at 20% 18%,rgba(255,255,255,.42) 0 1px,transparent 2px),radial-gradient(circle at 70% 60%,rgba(70,89,62,.12) 0 1px,transparent 2px),linear-gradient(135deg,#aebba2 0%,#e6d5d1 44%,#d9b9c8 72%,#8e9a7c 100%);background-size:31px 31px,47px 47px,100% 100%;cursor:crosshair}
+body:before{content:"✿  ✧  ♡  ❧  ✦  ❀  ✧  ♡";color:#f9f0e2;text-shadow:1px 2px #68755d;opacity:.54;line-height:17vh;letter-spacing:1.6vw;font-family:Georgia,serif}
+body:after{background:radial-gradient(ellipse at center,transparent 40%,rgba(42,30,43,.18) 100%);opacity:.65}
+.computer-shell{display:contents!important}
+.computer-shell:before,.computer-shell:after{display:none!important;content:none!important}
+.desktop-notes,.desktop-icons,.desktop-widget,.start-menu,.taskbar,.desktop-tooltip,.computer-controls,.computer-keyboard,.windowbar{display:none!important}
+.site{width:min(1280px,100%);max-width:1280px;margin:0 auto 38px;position:relative;overflow:visible;background:var(--paper);border:2px solid var(--plum);outline:1px solid rgba(255,255,255,.8);box-shadow:8px 8px 0 var(--plum),14px 14px 0 rgba(73,51,78,.22)}
+.site:before{content:"✿ SPECIMEN / SELF-ARCHIVE ✿";position:absolute;z-index:4;top:-13px;right:28px;padding:5px 12px;background:#e7c5d0;border:1px solid var(--plum);color:var(--plum);font:11px/1.2 "Caveat",cursive;letter-spacing:.12em;transform:rotate(2deg);box-shadow:2px 2px 0 var(--plum)}
+.site .topbar{padding:12px 18px;background:var(--plum);color:#f7e8e7;border-bottom:3px solid var(--pink);font:8px/1.8 "Press Start 2P",monospace;letter-spacing:.02em}
+.hero{position:relative;grid-template-columns:minmax(0,1fr) 155px;gap:26px;padding:clamp(24px,4vw,54px);background-color:#f3e4d7;background-image:radial-gradient(#d3b9c5 1px,transparent 1.5px),linear-gradient(115deg,#f5e6d5 0%,#f8f0df 48%,#dfcbdc 100%);background-size:18px 18px,100% 100%;border-bottom:2px dashed var(--moss)}
+.hero:before{content:"LAB JOURNAL  /  VOL. 01";position:absolute;left:24px;top:10px;color:#78826b;font:11px/1.3 "Caveat",cursive;letter-spacing:.12em;transform:rotate(-2deg)}
+.hero:after{content:"keep looking closer ♡";position:absolute;right:24px;bottom:13px;color:#a94770;font:20px/1 "Caveat",cursive;transform:rotate(-4deg)}
+.eyebrow{font:12px/1.8 "Press Start 2P",monospace;color:#66765b;letter-spacing:-.04em}
+h1{margin:13px 0 8px;font:700 clamp(38px,6vw,74px)/.98 "Cormorant Garamond",Georgia,serif;letter-spacing:-.045em;color:#49334e;text-shadow:2px 2px 0 #e9c6d2,4px 4px 0 rgba(105,81,111,.18)}
+.subtitle{font:700 clamp(14px,2vw,19px)/1.5 Fredoka,sans-serif;color:#a94770;letter-spacing:.02em}
+.hero-meta{font:700 11px/1.8 "Press Start 2P",monospace;color:#66765b}
+.intro{max-width:730px;font-size:16px;line-height:1.9}
+.avatar{border:2px solid var(--plum);background:#e4d5d8;box-shadow:5px 5px 0 #b56d89,9px 9px 0 #aab79b;transform:rotate(3deg)}
+.avatar:before{content:"♡";color:#a94770;text-shadow:1px 1px #fbf5e8}
+.avatar .sticker{filter:none;animation:sticker-wiggle 3.5s ease-in-out infinite}
+.nav{position:sticky;top:0;z-index:20;display:flex;flex-wrap:wrap;background:#e3d4df;border-bottom:2px solid var(--plum);box-shadow:0 4px 0 rgba(73,51,78,.14)}
+.nav button{padding:14px 10px;background:transparent;color:#49334e;border-right:1px dashed #b48b9d;font:8px/1.8 "Press Start 2P",monospace}
+.nav button:hover,.nav button[aria-selected="true"]{background:#49334e;color:#f9eddf;box-shadow:inset 0 -4px #d98ba8}
+.panel{position:relative;padding:clamp(20px,3.5vw,42px);background-color:#fbf5e8;background-image:radial-gradient(rgba(134,111,92,.17) .7px,transparent 1px),linear-gradient(90deg,rgba(217,139,168,.055),transparent 45%,rgba(102,118,91,.05));background-size:11px 11px,100% 100%}
+.panel:after{content:"✧  annotated with curiosity  ✧";display:block;margin:30px 0 0;text-align:right;color:#a94770;font:20px/1 "Caveat",cursive;transform:rotate(-1deg)}
+h2{font:700 clamp(23px,3vw,34px)/1.1 "Cormorant Garamond",Georgia,serif;letter-spacing:.01em;color:#49334e;text-shadow:1px 1px #e7c5d0;border-bottom:2px dashed #b48b9d;padding-bottom:13px}
+h2:after{content:"  ✿";color:#a94770;font:20px Georgia,serif}
+h3{font:700 20px/1.15 "Cormorant Garamond",Georgia,serif;color:#49334e;letter-spacing:.02em}
+p{line-height:1.85}
+.grid{gap:23px}
+.card{position:relative;min-width:0;padding:22px;background:#fff9ed;border:1px solid #65526b;box-shadow:4px 4px 0 #d7b6c3,8px 8px 0 rgba(102,118,91,.16);transition:transform .2s ease,box-shadow .2s ease}
+.card:before{content:"✦ FIELD NOTE";position:absolute;top:-10px;left:14px;padding:3px 8px;background:#c8d0b7;border:1px solid #66765b;color:#3e4c38;font:10px/1.2 "Caveat",cursive;letter-spacing:.08em;transform:rotate(-2deg)}
+.card:nth-child(4n+1){background:#fff8ed;transform:rotate(-.65deg)}
+.card:nth-child(4n+2){background:#f3e4e8;transform:rotate(.55deg)}
+.card:nth-child(4n+3){background:#edf0e3}
+.card:nth-child(4n){background:#eee5f0;transform:rotate(.3deg)}
+.card:hover{transform:translateY(-4px) rotate(0deg);box-shadow:6px 6px 0 #d98ba8,10px 10px 0 rgba(73,51,78,.16)}
+.meta{color:#a94770;font-weight:900;letter-spacing:.015em}
+a{color:#79506f;text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:#a94770}
+.tags{gap:9px}
+.tag{padding:6px 9px;background:#e7c5d0;border:1px solid #49334e;box-shadow:2px 2px 0 #49334e;color:#49334e;font-size:12px;font-weight:900}
+.tag:nth-child(even){background:#dce2cf}
+.callout,.arcade-intro{padding:18px;background:#f0e2d0;border:1px dashed #66765b;box-shadow:4px 4px 0 #d7b6c3;font-weight:800;line-height:1.9}
+.btn{border:2px solid #49334e;background:#d98ba8;color:#34263b;box-shadow:3px 3px 0 #66765b;padding:11px 13px;font:9px/1.8 "Press Start 2P",monospace}
+.btn:hover{background:#c8d0b7;box-shadow:4px 4px 0 #49334e;transform:translate(-1px,-1px)}
+.footer{background:#49334e;color:#f9eddf;border-top:3px solid #d98ba8;padding:22px}
+.footer a{color:#f0c8d6}
+.arcade-grid{gap:24px}
+.machine{background:linear-gradient(135deg,#e9d4df,#dce2cf);border:2px solid #49334e;box-shadow:6px 6px 0 #d98ba8,10px 10px 0 rgba(73,51,78,.2)}
+.machine h3{font:700 23px/1.2 "Cormorant Garamond",Georgia,serif}
+.screen{border:3px solid #49334e;outline:2px solid #fff9ed;background:#281e31}
+.hud{color:#49334e}
+.message{color:#49334e}
+.pop-zone{border-color:#49334e}
+#catch-canvas{image-rendering:pixelated}
+@keyframes paper-drift{0%,100%{transform:rotate(-1deg)}50%{transform:rotate(1deg)}}
+.sticker{filter:none}
+.card:nth-child(5n):after{content:"read + revisit";position:absolute;right:12px;bottom:8px;color:#a94770;font:18px "Caveat",cursive;transform:rotate(-6deg)}
+a:focus-visible,button:focus-visible{outline:3px dashed #a94770;outline-offset:4px}
+@media(max-width:650px){body{padding:8px}.site{box-shadow:5px 5px 0 #49334e,8px 8px 0 rgba(73,51,78,.22)}.site:before{right:14px;font-size:10px}.hero{grid-template-columns:1fr;gap:20px}.avatar{grid-row:1;width:108px}.hero:after{display:none}.nav{position:relative}.nav button{flex:1 0 33%;font-size:7px;padding:10px 5px}.grid,.arcade-grid{grid-template-columns:1fr}.card:nth-child(n){transform:none}.panel{padding:18px}.panel:after{font-size:17px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+
+
+/* === INTERACTIVE INTERNET SCRAPBOOK + CURIOSITY CABINET === */
+:root{--paper:#fbf3e4;--paper-deep:#f0e0ce;--plum:#3b233d;--burgundy:#742f4b;--dusty:#d99aaf;--rose:#f0cbd4;--sage:#bfc8ac;--moss:#59694f;--ink:#382b3b;--lilac:#d8c7e0}
+html{scroll-behavior:smooth;scroll-padding-top:82px;overflow-y:auto}
+body{overflow-x:hidden;overflow-y:auto;min-height:100%;background-color:#c3cbb3;background-image:radial-gradient(circle at 15% 12%,rgba(255,255,255,.42) 0 1px,transparent 2px),radial-gradient(circle at 80% 68%,rgba(65,48,63,.12) 0 1px,transparent 2px),linear-gradient(135deg,#c5ceb8 0%,#f0d9d8 42%,#d4b8ca 73%,#9ba98a 100%);background-size:31px 31px,47px 47px,100% 100%;background-attachment:fixed}
+.computer-shell{display:contents!important;position:static!important;width:auto!important;height:auto!important;min-height:0!important;overflow:visible!important;padding:0!important;margin:0!important;border:0!important;background:none!important;box-shadow:none!important}
+.computer-shell:before,.computer-shell:after{display:none!important;content:none!important}
+.desktop-notes,.desktop-icons,.desktop-widget,.start-menu,.taskbar,.desktop-tooltip,.computer-controls,.computer-keyboard,.windowbar{display:none!important}
+.site{width:min(1280px,100%);max-width:1280px;margin:0 auto 42px;overflow:visible!important;position:relative!important;inset:auto!important;background:var(--paper);border:2px solid var(--plum);box-shadow:8px 8px 0 var(--plum),14px 14px 0 rgba(59,35,61,.2)}
+.site:before{content:"✿ PERSONAL MUSEUM · FIELD ARCHIVE ✿";position:absolute;z-index:4;top:-13px;right:28px;padding:5px 12px;background:#e7c5d0;border:1px solid var(--plum);color:var(--plum);font:12px/1.2 "Caveat",cursive;letter-spacing:.1em;transform:rotate(2deg);box-shadow:2px 2px 0 var(--plum)}
+.site .topbar{padding:12px 18px;background:var(--plum);color:#f7e8e7;border-bottom:3px solid var(--dusty);font:8px/1.8 "Press Start 2P",monospace}
+.hero{position:relative;grid-template-columns:minmax(0,1fr) 155px;gap:26px;padding:clamp(24px,4vw,54px);background-color:#f3e4d7;background-image:radial-gradient(#d3b9c5 1px,transparent 1.5px),linear-gradient(115deg,#f5e6d5 0%,#fbf3e4 48%,#dfcbdc 100%);background-size:18px 18px,100% 100%;border-bottom:2px dashed var(--moss)}
+.hero:before{content:"LAB JOURNAL  /  VOL. 01";position:absolute;left:24px;top:10px;color:#68765d;font:12px/1.3 "Caveat",cursive;letter-spacing:.12em;transform:rotate(-2deg)}
+.hero:after{content:"keep looking closer ♡";position:absolute;right:24px;bottom:13px;color:var(--burgundy);font:20px/1 "Caveat",cursive;transform:rotate(-4deg)}
+h1{font:700 clamp(38px,6vw,74px)/.98 "Cormorant Garamond",Georgia,serif;color:var(--plum);letter-spacing:-.045em;text-shadow:2px 2px 0 #e9c6d2,4px 4px 0 rgba(105,81,111,.18)}
+.subtitle{font:700 clamp(14px,2vw,19px)/1.5 Fredoka,sans-serif;color:var(--burgundy)}
+.nav{position:sticky;top:0;z-index:50;display:flex;flex-wrap:wrap;background:#e3d4df;border-bottom:2px solid var(--plum);box-shadow:0 4px 0 rgba(73,51,78,.14)}
+.nav button{padding:13px 10px;background:transparent;color:var(--plum);border-right:1px dashed #b48b9d;font:8px/1.8 "Press Start 2P",monospace}
+.nav button:hover,.nav button[aria-selected="true"]{background:var(--plum);color:#f9eddf;box-shadow:inset 0 -4px var(--dusty)}
+/* Critical scroll fix: every portfolio section stays in the document flow. */
+main{display:block!important;min-height:0!important;height:auto!important;overflow:visible!important}
+.panel,.panel.active{display:block!important;position:relative;visibility:visible!important;height:auto!important;min-height:0!important;max-height:none!important;overflow:visible!important;padding:clamp(22px,3.5vw,42px);scroll-margin-top:84px;background-color:var(--paper);background-image:radial-gradient(rgba(134,111,92,.15) .7px,transparent 1px),linear-gradient(90deg,rgba(217,139,168,.055),transparent 45%,rgba(102,118,91,.05));background-size:11px 11px,100% 100%;border-bottom:1px dashed #b69aa7;animation:none!important}
+.panel:after{content:"✧ annotated with curiosity ✧";display:block;margin:30px 0 0;text-align:right;color:var(--burgundy);font:20px/1 "Caveat",cursive;transform:rotate(-1deg)}
+.panel h2{font:700 clamp(25px,3vw,36px)/1.1 "Cormorant Garamond",Georgia,serif;color:var(--plum);border-bottom:2px dashed #b48b9d;padding-bottom:13px;text-shadow:1px 1px #e7c5d0}
+.panel h2:after{content:" ✿";color:var(--burgundy);font:20px Georgia,serif}
+.panel h3{font:700 21px/1.15 "Cormorant Garamond",Georgia,serif;color:var(--plum)}
+.card{background:#fff9ed;border:1px solid #65526b;box-shadow:4px 4px 0 #d7b6c3,8px 8px 0 rgba(102,118,91,.14);transition:transform .2s ease,box-shadow .2s ease}
+.card:nth-child(4n+1){background:#fff8ed;transform:rotate(-.45deg)}
+.card:nth-child(4n+2){background:#f3e4e8;transform:rotate(.4deg)}
+.card:nth-child(4n+3){background:#edf0e3}
+.card:nth-child(4n):not(.legal-copy){background:#eee5f0;transform:rotate(.25deg)}
+.card:hover{transform:translateY(-3px) rotate(0);box-shadow:6px 6px 0 var(--dusty),10px 10px 0 rgba(73,51,78,.16)}
+.meta{color:var(--burgundy)}
+.tag{background:#e7c5d0;border:1px solid var(--plum);box-shadow:2px 2px 0 var(--plum);color:var(--plum)}
+.tag:nth-child(even){background:#dce2cf}
+a{color:#79506f;text-underline-offset:3px}a:hover{color:var(--burgundy)}
+.callout{background:#f0e2d0;border:1px dashed var(--moss);box-shadow:4px 4px 0 #d7b6c3}
+.btn{border:2px solid var(--plum);background:var(--dusty);color:var(--plum);box-shadow:3px 3px 0 var(--moss)}
+.btn:hover{background:var(--sage);box-shadow:4px 4px 0 var(--plum)}
+.footer{background:var(--plum);color:#f9eddf;border-top:3px solid var(--dusty)}.footer a{color:#f0c8d6}
+.cabinet{margin-top:38px;padding:clamp(16px,3vw,30px);border:2px solid var(--plum);background:#efe4d5;box-shadow:7px 7px 0 #d6b3c1,12px 12px 0 rgba(59,35,61,.14);position:relative}
+.cabinet:before{content:"COLLECTION No. 01";position:absolute;right:14px;top:-13px;padding:5px 9px;background:#bfc8ac;border:1px solid var(--moss);font:10px/1.2 "Press Start 2P",monospace;color:#394632;transform:rotate(2deg)}
+.cabinet-heading{position:relative;padding:8px 6px 20px;border-bottom:1px dashed #aa8999;margin-bottom:22px}
+.archive-stamp{display:inline-block;padding:5px 8px;background:#f1d1d8;border:1px solid var(--burgundy);color:var(--burgundy);font:10px/1.2 "Press Start 2P",monospace;transform:rotate(-2deg)}
+.cabinet-heading h2{margin:16px 0 8px;font:700 clamp(30px,4vw,47px)/1 "Cormorant Garamond",Georgia,serif;color:var(--plum)}
+.cabinet-heading p{max-width:700px;line-height:1.8}
+.hand-note{position:absolute;right:8px;bottom:12px;color:var(--burgundy);font:21px "Caveat",cursive;transform:rotate(-5deg)}
+.exhibit-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:19px}
+.exhibit{position:relative;min-width:0;min-height:230px;display:flex;flex-direction:column;align-items:flex-start;text-align:left;gap:10px;padding:17px 17px 15px;border:1px solid var(--plum);background:#fff8ed;color:var(--plum);box-shadow:4px 4px 0 #cda8b9;cursor:pointer;transition:transform .18s ease,box-shadow .18s ease;overflow:hidden}
+.exhibit:after{content:"";position:absolute;top:0;right:0;width:36px;height:36px;background:linear-gradient(135deg,transparent 49%,#d7c6ad 50%);opacity:.9}
+.exhibit:hover,.exhibit:focus-visible{transform:translateY(-5px) rotate(-.5deg);box-shadow:7px 7px 0 var(--burgundy),11px 11px 0 rgba(89,105,79,.22)}
+.exhibit-rose{background:#f3dce2}.exhibit-sage{background:#e4e9d9}.exhibit-parchment{background:#f4e7c9}.exhibit-lilac{background:#e9ddeb}.exhibit-ink{background:#d9d1df}
+.exhibit-art{display:grid;place-items:center;width:72px;height:72px;align-self:center;margin:1px auto 2px;border:1px solid rgba(59,35,61,.6);border-radius:50%;background:rgba(255,255,255,.42);font-size:38px;filter:saturate(.8);box-shadow:inset 0 0 0 5px rgba(255,255,255,.2)}
+.exhibit-id{font:9px/1.7 "Press Start 2P",monospace;color:var(--burgundy);letter-spacing:-.04em}
+.exhibit strong{font:700 25px/1 "Cormorant Garamond",Georgia,serif}
+.exhibit small{font:13px/1.65 Nunito,sans-serif}
+.exhibit-open{margin-top:auto;padding-top:8px;border-top:1px dashed currentColor;width:100%;font:9px/1.7 "Press Start 2P",monospace}
+.cabinet-footnote{margin:20px 0 0;color:#6b5a61;font:18px/1.3 "Caveat",cursive}
+.exhibit-dialog{width:min(560px,calc(100vw - 28px));max-height:85vh;overflow:auto;padding:0;border:2px solid var(--plum);background:var(--paper);color:var(--ink);box-shadow:9px 9px 0 var(--plum)}
+.exhibit-dialog::backdrop{background:rgba(39,22,42,.68);backdrop-filter:blur(3px)}
+.dialog-topline{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 15px;background:var(--plum);color:#f9eddf;font:8px/1.7 "Press Start 2P",monospace}
+.dialog-x{width:30px;height:30px;border:1px solid #f9eddf;background:var(--dusty);color:var(--plum);font-size:23px;cursor:pointer}
+.dialog-specimen{display:grid;place-items:center;width:100px;height:100px;margin:24px auto 14px;border:1px solid var(--moss);border-radius:50%;background:#e5e7d7;font-size:50px}
+.exhibit-dialog .exhibit-id{text-align:center}.exhibit-dialog h3{margin:12px 22px;font:700 34px/1 "Cormorant Garamond",Georgia,serif;text-align:center}.exhibit-dialog p{margin:12px 26px 20px;line-height:1.9}
+.dialog-links{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:15px 22px 22px}.dialog-links a{display:inline-block;padding:9px 11px;border:1px solid var(--plum);background:#e8d6df;color:var(--plum);font-weight:900}
+.exhibit-dialog #exhibit-dialog-jump{display:block;margin:0 auto 24px}
+@media(max-width:760px){.exhibit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{grid-template-columns:minmax(0,1fr) 115px;gap:18px}.hero .avatar{width:108px}}
+@media(max-width:520px){body{padding:8px}.site{box-shadow:5px 5px 0 var(--plum),8px 8px 0 rgba(59,35,61,.2)}.site:before{right:10px;font-size:10px}.hero{grid-template-columns:1fr;gap:20px}.avatar{grid-row:1;width:108px}.hero:after{display:none}.nav{position:sticky;top:0}.nav button{flex:1 0 33%;font-size:7px;padding:10px 5px}.grid,.arcade-grid{grid-template-columns:1fr}.card:nth-child(n){transform:none}.panel{padding:20px 14px}.exhibit-grid{grid-template-columns:1fr 1fr;gap:10px}.exhibit{padding:12px;min-height:205px}.exhibit-art{width:58px;height:58px;font-size:31px}.exhibit strong{font-size:21px}.exhibit small{font-size:12px}.hand-note{position:static;display:block;margin-top:8px}.cabinet{padding:16px 12px}.exhibit-dialog .exhibit-id{font-size:8px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+
+
+/* PINTEREST COLLAGE SCRAPBOOK — saturated, layered, deliberately irregular */
+html,body{overflow-x:hidden!important}
+body{padding:18px 12px 38px!important;background:#ff55c8!important;background-image:radial-gradient(circle at 8% 15%,#fff36b 0 3px,transparent 4px),radial-gradient(circle at 84% 11%,#58efff 0 5px,transparent 6px),radial-gradient(circle at 92% 72%,#ff875f 0 4px,transparent 5px),repeating-linear-gradient(135deg,#ff45b9 0 28px,#f56cc9 28px 54px,#a77bff 54px 82px,#70eaff 82px 108px,#ffe45e 108px 135px)!important;background-attachment:fixed!important}
+body:before{content:"✦ CUT / PASTE ✿ BIOLOGY ★ GLUE STICK ♡ GENETICS ✧ DOODLES ✦";position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden;opacity:.22;color:#321443;font:900 17px/8rem "Nunito",sans-serif;letter-spacing:8px;transform:rotate(-9deg) scale(1.2);text-shadow:2px 2px #fff36b}
+body:after{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;background-image:radial-gradient(#321443 1px,transparent 1.4px);background-size:13px 13px;opacity:.13}
+.computer-shell{display:contents!important;position:static!important;width:auto!important;height:auto!important;min-height:0!important;overflow:visible!important;padding:0!important;margin:0!important;border:0!important;background:none!important;box-shadow:none!important}
+.computer-shell:before,.computer-shell:after{display:none!important;content:none!important}
+.desktop-notes,.desktop-icons,.desktop-widget,.start-menu,.taskbar,.desktop-tooltip,.computer-controls,.computer-keyboard,.windowbar{display:none!important}
+.site{width:min(1240px,calc(100vw - 30px))!important;max-width:none!important;margin:18px auto 28px!important;overflow:visible!important;border:5px solid #321443!important;background:#fff9d9!important;box-shadow:10px 10px 0 #321443,0 0 0 5px #ff4bbd,0 0 0 10px #ffe85b,0 0 0 14px #4ce7ff!important;transform:rotate(-.35deg)}
+.site:before{content:"PERSONAL WEBSITE / EST. 2026";position:absolute;z-index:12;top:-17px;right:32px;padding:7px 13px;background:#ffed55;color:#321443;border:3px solid #321443;font:900 10px/1 "Nunito",sans-serif;letter-spacing:1.2px;transform:rotate(4deg);box-shadow:4px 4px 0 #321443}
+.site .topbar{background:repeating-linear-gradient(90deg,#321443 0 130px,#f946b9 130px 245px,#713ee8 245px 360px,#ff824f 360px 470px,#ffe653 470px 590px,#4be7de 590px 700px)!important;color:#fff!important;border-bottom:5px solid #321443!important;padding:14px 18px!important;letter-spacing:1px}
+.hero{position:relative;isolation:isolate;grid-template-columns:minmax(0,1fr) 215px!important;gap:24px!important;padding:42px 34px 34px!important;background-color:#fff1a9!important;background-image:radial-gradient(circle at 8% 18%,#ff4bbd 0 8px,transparent 9px),radial-gradient(circle at 95% 88%,#4be7ff 0 15px,transparent 16px),repeating-linear-gradient(-7deg,transparent 0 31px,#ff91d9 32px 34px,transparent 35px 64px),linear-gradient(120deg,#ffe55a 0%,#ffd0e8 32%,#c6a7ff 63%,#8cf4f1 100%)!important;border-bottom:5px solid #321443!important}
+.hero:before{content:"ANUBHUTI GOSWAMI PORTFOLIO";position:absolute;top:13px;right:250px;padding:7px 12px;background:#ff4dbb;color:#321443;border:2px solid #321443;font:900 11px/1 "Nunito",sans-serif;transform:rotate(-5deg);box-shadow:3px 3px 0 #321443}
+.hero:after{content:"RESEARCH · CODE · PROJECTS";position:absolute;right:15px;bottom:13px;padding:7px 9px;background:#55edff;color:#321443;border:2px solid #321443;font:900 9px/1 "Nunito",sans-serif;transform:rotate(5deg)}
+.eyebrow{display:inline-block;padding:8px 10px;background:#321443!important;color:#ffe85b!important;font:900 10px/1.5 "Nunito",sans-serif!important;letter-spacing:1.5px;transform:rotate(-2deg)}
+h1{font:900 clamp(40px,7vw,76px)/.98 "Fredoka","Nunito",sans-serif!important;max-width:780px;color:#fa2d9d!important;text-shadow:4px 4px 0 #ffe85b,8px 8px 0 #321443!important;transform:rotate(-1deg);margin:20px 0 15px!important}
+.subtitle{display:table;padding:9px 12px;background:#321443;color:#74f8ff!important;font-size:clamp(16px,2vw,22px)!important;transform:rotate(1.8deg);box-shadow:5px 5px 0 #ff4bbd}
+.hero-meta{display:inline-block;padding:7px 9px;margin-top:15px!important;background:#b9ff81;border:2px solid #321443;transform:rotate(-1deg);font-weight:900}
+.intro{max-width:690px;padding:14px 16px;background:#fff9f1;border:3px dashed #321443;box-shadow:5px 5px 0 #ff4bbd;font-size:16px;line-height:1.7;transform:rotate(.5deg)}
+.avatar{width:205px!important;aspect-ratio:220/240!important;align-self:center;overflow:visible!important;border:5px solid #321443!important;background:#ffe65a!important;box-shadow:9px 9px 0 #ff4bbd,-4px -4px 0 #4be7ff!important;transform:rotate(4deg)}
+.avatar svg{width:100%;height:100%;display:block;shape-rendering:geometricPrecision}
+.portrait-sticker{position:absolute;z-index:3;right:-20px;top:-24px;display:grid;place-items:center;width:52px;height:52px;border:3px solid #321443;border-radius:50%;background:#ff4bbd;color:#fff36b;font-size:30px;box-shadow:4px 4px 0 #321443;transform:rotate(15deg)}
+.nav{position:sticky!important;top:0;z-index:30;display:flex;flex-wrap:wrap;background:#321443!important;border-bottom:5px solid #ffe85b!important;box-shadow:0 5px 0 #ff4bbd}
+.nav button{flex:1 0 auto!important;min-width:105px;padding:15px 12px!important;border-right:2px dashed #fff!important;color:#fff!important;background:#321443!important;font:900 11px/1.3 "Nunito",sans-serif!important;letter-spacing:.6px}
+.nav button:nth-child(6n+1){background:#ff4bbd!important;color:#321443!important}.nav button:nth-child(6n+2){background:#ffe85b!important;color:#321443!important}.nav button:nth-child(6n+3){background:#55edff!important;color:#321443!important}.nav button:nth-child(6n+4){background:#a8ff82!important;color:#321443!important}.nav button:nth-child(6n+5){background:#bda0ff!important;color:#321443!important}.nav button:nth-child(6n){background:#ff875f!important;color:#321443!important}
+.nav button:hover,.nav button[aria-selected="true"]{background:#321443!important;color:#ffe85b!important;box-shadow:inset 0 -5px #ff4bbd!important}
+main{display:block!important;height:auto!important;min-height:0!important;overflow:visible!important;background:#fff9d9!important}
+.panel,.panel.active{display:block!important;position:relative!important;visibility:visible!important;height:auto!important;min-height:0!important;max-height:none!important;overflow:visible!important;padding:38px 32px!important;margin:0!important;border-bottom:5px dashed #321443!important;background-color:#fff9d9!important;background-image:radial-gradient(#ff9bd6 1px,transparent 1.7px)!important;background-size:17px 17px!important;scroll-margin-top:75px}
+.panel:nth-child(even){background-color:#c9fff1!important;background-image:repeating-linear-gradient(12deg,transparent 0 52px,#fff 53px 56px,transparent 57px 94px),radial-gradient(#7e5aff 1px,transparent 1.8px)!important;background-size:auto,19px 19px!important}
+.panel h2{display:table;max-width:100%;padding:10px 14px!important;background:#ffe85b!important;border:4px solid #321443!important;box-shadow:6px 6px 0 #ff4bbd!important;color:#321443!important;text-shadow:2px 2px 0 #fff!important;transform:rotate(-1deg);margin-bottom:28px!important}
+.grid{gap:24px!important;align-items:start}
+.card{position:relative;border:4px solid #321443!important;box-shadow:8px 8px 0 #321443!important;padding:23px!important;transform:rotate(-1.2deg);background:#ffd2ed!important}
+.card:nth-child(6n+2){transform:rotate(1.5deg);background:#bff6ff!important;box-shadow:8px 8px 0 #4c2ca3!important}.card:nth-child(6n+3){transform:rotate(-.5deg);background:#fff08a!important;box-shadow:8px 8px 0 #ff784e!important}.card:nth-child(6n+4){transform:rotate(1.8deg);background:#c8ffa4!important;box-shadow:8px 8px 0 #321443!important}.card:nth-child(6n+5){transform:rotate(-1.7deg);background:#d6c1ff!important;box-shadow:8px 8px 0 #ff4bbd!important}.card:nth-child(6n){transform:rotate(.8deg);background:#ffb98e!important;box-shadow:8px 8px 0 #321443!important}
+.card:before,.cv-entry:before{content:"";position:absolute;top:-10px;left:24px;width:65px;height:19px;background:#ffe85b;border:2px solid #321443;transform:rotate(-7deg);box-shadow:2px 2px 0 #321443}.card:nth-child(even):before{left:auto;right:24px;background:#55edff;transform:rotate(6deg)}
+.meta{color:#9b176d!important}.tags{gap:12px!important}.tag{border:3px solid #321443!important;box-shadow:3px 3px 0 #321443!important;transform:rotate(-2deg);background:#ffe85b!important}.tag:nth-child(even){background:#55edff!important;transform:rotate(2deg)}
+.callout{border:4px dashed #321443!important;box-shadow:6px 6px 0 #ff4bbd!important;background:#c5ffd9!important;padding:18px!important}
+.cabinet{position:relative;margin:32px 0 14px;padding:28px!important;border:5px solid #321443!important;background:linear-gradient(135deg,#ffe85b,#ffb8e5 30%,#b7a3ff 61%,#a9fff0)!important;box-shadow:10px 10px 0 #321443!important;transform:rotate(.4deg)}
+.cabinet:before{content:"SCRAPBOOK / SELECTED WORK";position:absolute;top:-18px;left:24px;padding:8px 12px;border:3px solid #321443;background:#ff4bbd;color:#321443;font:900 11px/1 "Nunito",sans-serif;transform:rotate(-4deg);box-shadow:3px 3px 0 #321443}
+.cabinet-heading{position:relative;padding:20px 14px 28px!important}.archive-stamp{display:inline-block;padding:7px 10px;background:#321443!important;color:#ffe85b!important;font:900 10px/1.3 "Nunito",sans-serif!important;letter-spacing:1px;transform:rotate(2deg)}
+.cabinet-heading h2{font:900 clamp(27px,4vw,44px)/1.05 "Fredoka","Nunito",sans-serif!important;background:#fff8e4!important;box-shadow:5px 5px 0 #321443!important;transform:rotate(-1deg);border:4px solid #321443!important}.cabinet-heading p{display:table;padding:9px 12px;background:#fff;border:2px solid #321443;transform:rotate(.8deg)}
+.hand-note{background:#ff4bbd!important;border:3px solid #321443!important;color:#321443!important;font:900 12px/1.4 "Nunito",sans-serif!important;padding:8px 12px!important;box-shadow:4px 4px 0 #321443;transform:rotate(5deg)}
+.exhibit-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:22px!important}
+.exhibit{min-height:265px!important;padding:20px!important;border:4px solid #321443!important;box-shadow:8px 8px 0 #321443!important;position:relative;transform:rotate(-1.5deg);transition:transform .18s,box-shadow .18s!important}
+.exhibit:nth-child(6n+1){background:#ffb9df!important;transform:rotate(-2.5deg)}.exhibit:nth-child(6n+2){background:#a8f3ff!important;transform:rotate(1.8deg)}.exhibit:nth-child(6n+3){background:#fff07d!important;transform:rotate(-1deg)}.exhibit:nth-child(6n+4){background:#c3ffa5!important;transform:rotate(2deg)}.exhibit:nth-child(6n+5){background:#cbb2ff!important;transform:rotate(-1.8deg)}.exhibit:nth-child(6n){background:#ffb28d!important;transform:rotate(1.3deg)}
+.exhibit:before{content:"";position:absolute;top:-9px;left:calc(50% - 35px);width:70px;height:17px;background:#fff9e6;border:2px solid #321443;transform:rotate(-3deg)}
+.exhibit:hover{transform:rotate(0) translateY(-7px) scale(1.02)!important;box-shadow:12px 14px 0 #321443!important}.exhibit-art{border:4px solid #321443!important;background:#fff!important;box-shadow:5px 5px 0 #ff4bbd!important;transform:rotate(-7deg)}
+.exhibit-id{font:900 9px/1.6 "Nunito",sans-serif!important;letter-spacing:1px}.exhibit strong{font:900 25px/1.05 "Fredoka","Nunito",sans-serif!important}.exhibit small{font-size:14px!important;font-weight:800}.exhibit-open{font:900 10px/1.4 "Nunito",sans-serif!important;background:#321443!important;color:#fff!important;padding:8px!important}
+.cabinet-footnote{display:inline-block;padding:9px 12px;background:#fff;border:2px dashed #321443;transform:rotate(-1deg)}
+.exhibit-dialog{border:5px solid #321443!important;background:#fff1a9!important;box-shadow:10px 10px 0 #ff4bbd!important}.exhibit-dialog::backdrop{background:#321443b8;backdrop-filter:blur(3px)}
+.footer{background:linear-gradient(90deg,#321443,#7734cb,#ed369c,#ff824f)!important;border-top:5px solid #321443!important;color:#fff!important;padding:22px!important}.footer a{color:#ffe85b!important}
+.sticky-note{display:none!important}.arcade-grid{gap:25px!important}.machine{border:5px solid #321443!important;box-shadow:9px 9px 0 #ff4bbd!important}
+.btn{border:3px solid #321443!important;box-shadow:4px 4px 0 #321443!important;background:#ffe85b!important;color:#321443!important;font:900 12px/1.3 "Nunito",sans-serif!important}
+.btn:nth-child(even){background:#ff4bbd!important}
+.cv-entry{position:relative;border:4px solid #321443!important;box-shadow:7px 7px 0 #321443!important;margin-bottom:24px!important;padding:22px!important}
+.cv-entry:nth-child(3n+1){transform:rotate(-.8deg);background:#ffd0e9!important}.cv-entry:nth-child(3n+2){transform:rotate(.8deg);background:#c5f6ff!important}.cv-entry:nth-child(3n){transform:rotate(-.3deg);background:#fff18c!important}
+@media(max-width:760px){body{padding:8px 7px 20px!important}.site{width:calc(100vw - 24px)!important;transform:none}.hero{grid-template-columns:minmax(0,1fr) 120px!important;padding:38px 18px 26px!important;gap:15px!important}.avatar{width:116px!important}.hero:before{right:145px;top:9px;font-size:9px}.hero:after{right:8px;bottom:5px;font-size:8px}.panel,.panel.active{padding:29px 17px!important}.exhibit-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:15px!important}.exhibit{padding:15px!important;min-height:230px!important}.card{transform:none!important}}
+@media(max-width:480px){.hero{grid-template-columns:1fr!important}.avatar{grid-row:1;width:145px!important;justify-self:center;margin:12px auto}.hero:before{right:12px;top:8px}.hero:after{right:8px;bottom:4px}h1{font-size:clamp(36px,11vw,54px)!important}.nav button{flex:1 0 45%!important}.exhibit-grid{grid-template-columns:1fr!important}.exhibit{min-height:0!important}.cabinet{padding:14px!important}}
+@media(prefers-reduced-motion:reduce){.exhibit,.card,.cabinet{transform:none!important}}
+
+
+/* JADE / VERMILION / ARCADE STICKER OVERLAY — NO WHITE OR CREAM SURFACES */
+:root{--cream:#ff55c8!important;--paper:#ff55c8!important;--ink:#271044!important}
+body{background-color:#7c39f2!important;background-image:radial-gradient(circle,#ffe85b 0 2px,transparent 2.8px),repeating-linear-gradient(135deg,#ff42b8 0 34px,#b84dff 34px 68px,#49e6df 68px 102px,#ffe85b 102px 136px,#ff805e 136px 170px)!important;background-size:31px 31px,170px 170px!important;background-attachment:fixed!important}
+body:before{content:"✦ GOOD THINGS TAKE TIME ✦  🐈‍⬛  ✿ KEEP MAKING THINGS ✿  🐇  ★ STAY CURIOUS ★  🐉";color:#ffe85b!important;opacity:.65!important;text-shadow:2px 2px #321443,-1px -1px #321443!important;line-height:17vh!important;letter-spacing:1.1vw!important}
+body:after{background:repeating-radial-gradient(ellipse at 0 0,transparent 0 16px,rgba(255,232,91,.19) 17px 19px,transparent 20px 33px),radial-gradient(ellipse at center,transparent 32%,rgba(39,16,68,.28) 100%)!important}
+.site{background:#ff67c9!important;box-shadow:10px 10px 0 #321443,0 0 0 5px #ff4bbd,0 0 0 10px #ffe85b,0 0 0 14px #4ce7ff!important}
+.hero{background-color:#a8f3ff!important;background-image:repeating-linear-gradient(45deg,transparent 0 19px,rgba(255,65,184,.25) 20px 22px,transparent 23px 42px),radial-gradient(circle at 15% 75%,#ff4bbd 0 11px,transparent 12px),linear-gradient(125deg,#ffe85b,#ff86cb 28%,#b59aff 57%,#62eee2)!important}
+.intro{background:#9dff9b!important;color:#321443!important}
+main{background:#ff5bc8!important}
+.panel,.panel.active{background-color:#ff72c9!important;background-image:radial-gradient(#6e27ba 1.4px,transparent 1.8px),repeating-linear-gradient(135deg,transparent 0 68px,rgba(255,232,91,.20) 69px 72px,transparent 73px 118px)!important;background-size:18px 18px,auto!important}
+.panel:nth-child(even){background-color:#70e9dd!important;background-image:repeating-linear-gradient(45deg,transparent 0 31px,rgba(255,65,184,.24) 32px 35px,transparent 36px 65px),radial-gradient(#7334c8 1.2px,transparent 1.7px)!important;background-size:auto,18px 18px!important}
+.card,.cv-entry{color:#321443!important}
+.card:nth-child(6n+1){background:#ff9fd7!important}.card:nth-child(6n+2){background:#74f1ff!important}.card:nth-child(6n+3){background:#ffe85b!important}.card:nth-child(6n+4){background:#9cff7c!important}.card:nth-child(6n+5){background:#bca0ff!important}.card:nth-child(6n){background:#ff9566!important}
+.exhibit:nth-child(6n+1){background:#ff9fd7!important}.exhibit:nth-child(6n+2){background:#74f1ff!important}.exhibit:nth-child(6n+3){background:#ffe85b!important}.exhibit:nth-child(6n+4){background:#9cff7c!important}.exhibit:nth-child(6n+5){background:#bca0ff!important}.exhibit:nth-child(6n){background:#ff9566!important}
+.exhibit-art{background:#b8ff83!important;color:#321443!important}
+.cabinet{background:repeating-linear-gradient(135deg,#ff66c9 0 26px,#ffe85b 26px 52px,#62eee2 52px 78px,#bba0ff 78px 104px)!important}
+.cabinet-heading h2{background:#ffe85b!important;color:#321443!important}
+.cabinet-heading p{background:#9dff9b!important;color:#321443!important}
+.exhibit-dialog{background:#ffe85b!important;color:#321443!important}
+.exhibit-dialog .dialog-art,.exhibit-dialog .exhibit-dialog-art{background:#74f1ff!important}
+.exhibit-dialog button{background:#ff4bbd!important;color:#321443!important}
+.exhibit-dialog p,.exhibit-dialog div{color:#321443}
+.callout{background:#9dff9b!important;color:#321443!important}
+.tag{color:#321443!important}
+.tag:nth-child(3n){background:#ff9566!important}
+.nav button{border-right:2px dashed #fff!important}
+.site .topbar{color:#ffe85b!important}
+.footer{color:#ffe85b!important}
+.footer a{color:#74f1ff!important}
+.machine{background:#7a3be8!important;color:#ffe85b!important}
+.arcade-grid,.machine *{color:inherit}
+.btn{background:#ffe85b!important;color:#321443!important}
+.btn:nth-child(even){background:#ff4bbd!important;color:#321443!important}
+input,textarea,select{background:#8e4be8!important;color:#ffe85b!important;border:2px solid #321443!important}
+::placeholder{color:#c5fffc!important;opacity:1}
+.exhibit-open{background:#321443!important;color:#ffe85b!important}
+.archive-stamp{background:#321443!important;color:#ffe85b!important}
+.sticky-note{display:block!important;position:fixed!important;z-index:15!important;width:140px!important;padding:10px 12px!important;background:#ffe85b!important;color:#321443!important;border:3px solid #321443!important;box-shadow:5px 5px 0 #ff4bbd!important;font-family:"Caveat",cursive!important;font-size:19px!important;transform:rotate(-8deg)!important;pointer-events:none!important}
+.note-one{left:10px!important;top:28%!important}.note-two{right:10px!important;top:58%!important;transform:rotate(7deg)!important;background:#9dff9b!important}
+.note-label{display:block!important;font:900 8px/1.5 "Nunito",sans-serif!important;letter-spacing:1px!important}.note-text{font-size:21px!important;font-weight:700!important}
+.scrapbook-doodles{position:fixed;inset:0;z-index:4;pointer-events:none;overflow:hidden}
+.scrapbook-doodles span{position:absolute;display:block;max-width:180px;text-shadow:2px 2px #321443;font-weight:900}
+.scrapbook-doodles .scribble{font:900 15px/1.25 "Caveat",cursive;color:#ffe85b;background:#321443;padding:8px 11px;border:2px dashed #ff4bbd;box-shadow:4px 4px 0 #ffe85b;transform:rotate(-7deg)}
+.scrapbook-doodles .seal{display:grid;place-items:center;width:56px;height:56px;border:4px double #ffe85b;border-radius:50%;background:#c8203b;color:#ffe85b;font:900 19px/1 "Cormorant Garamond",serif;box-shadow:3px 3px 0 #321443;transform:rotate(8deg)}
+.scrapbook-doodles .animal{font-size:32px;filter:drop-shadow(2px 3px 0 #321443);animation:float-sticker 5s ease-in-out infinite alternate}
+.scrapbook-doodles .stripe{width:78px;height:15px;background:repeating-linear-gradient(90deg,#ff4bbd 0 8px,#ffe85b 8px 16px,#62eee2 16px 24px,#321443 24px 32px);border:2px solid #321443;transform:rotate(-25deg)}
+.scrapbook-doodles .dot{width:17px;height:17px;border-radius:50%;background:#ffe85b;border:3px solid #321443;box-shadow:18px 12px 0 #ff4bbd,34px -2px 0 #62eee2,50px 14px 0 #9dff9b}
+@keyframes float-sticker{from{translate:0 -5px;rotate:-7deg}to{translate:0 9px;rotate:8deg}}
+@media(max-width:760px){.sticky-note{width:108px!important;padding:7px!important;font-size:15px!important}.note-one{left:2px!important;top:18%!important}.note-two{right:2px!important;top:69%!important}.note-text{font-size:17px!important}.scrapbook-doodles .scribble{font-size:12px;padding:5px 7px}.scrapbook-doodles .animal{font-size:25px}}
+@media(prefers-reduced-motion:reduce){.scrapbook-doodles .animal{animation:none!important}}
+
+
+/* Final palette audit: whites/ivories/beiges are allowed only as scrapbook borders */
+.site,.site main,.site .panel,.site .panel.active{color:#321443!important}
+.site .topbar,.site .footer{color:#ffe85b!important}
+.site .nav button,.site .exhibit-open{color:#ffe85b!important}
+.site .nav button:nth-child(6n+1),.site .nav button:nth-child(6n+2),.site .nav button:nth-child(6n+3),.site .nav button:nth-child(6n+4),.site .nav button:nth-child(6n+5),.site .nav button:nth-child(6n){color:#321443!important}
+.site .nav button:hover,.site .nav button[aria-selected="true"]{color:#ffe85b!important}
+.site .footer a{color:#74f1ff!important}
+.site .exhibit-open{color:#ffe85b!important}
+.site .intro,.site .cabinet-heading p,.site .cabinet-footnote,.site .exhibit-art{background-color:#9dff9b!important;color:#321443!important}
+.site .card,.site .cv-entry{background-color:#ff9fd7!important}
+.site .card:nth-child(6n+2),.site .cv-entry:nth-child(3n+2){background-color:#74f1ff!important}
+.site .card:nth-child(6n+3),.site .cv-entry:nth-child(3n){background-color:#ffe85b!important}
+.site .card:nth-child(6n+4){background-color:#9cff7c!important}
+.site .card:nth-child(6n+5){background-color:#bca0ff!important}
+.site .card:nth-child(6n){background-color:#ff9566!important}
+.site .exhibit-dialog,.site .exhibit-dialog *{color:#321443!important}
+.site .exhibit-dialog{background-color:#ffe85b!important}
+.site .exhibit-dialog button{background:#ff4bbd!important}
+.site .exhibit-open{background:#321443!important}
+.site .machine{color:#ffe85b!important}
+.site .machine h3,.site .machine p,.site .machine label{color:#ffe85b!important}
+.site .machine .btn{color:#321443!important}
+.site .machine .btn:nth-child(even){color:#321443!important}
+.site .site-label,.site .archive-stamp{color:#ffe85b!important}
+::selection{background:#ff4bbd!important;color:#321443!important}
+
+
+/* User-selected portrait, glitter banner and supplied scrapbook images */
+.sparkle-banner-wrap{width:100%;height:clamp(52px,10vw,118px);overflow:hidden;background:#321443;border-bottom:4px solid #321443;position:relative}
+.sparkle-banner{display:block;width:100%;height:100%;object-fit:cover;object-position:center 48%;image-rendering:auto}
+.avatar{overflow:visible!important}
+.avatar .avatar-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;border-radius:0;z-index:2;background:#ff35b8}
+.avatar:has(.avatar-photo:not([hidden])) svg{display:none!important}
+.avatar .portrait-sticker{z-index:4}
+.inspo-strip{position:relative;display:flex;align-items:center;justify-content:center;gap:clamp(8px,2.3vw,24px);padding:22px 26px 26px;background:repeating-linear-gradient(135deg,#ff35b8 0 12px,#ff83d0 12px 24px,#8b35ff 24px 36px);border-top:3px solid #321443;border-bottom:4px solid #321443;overflow:hidden;min-height:150px}
+.inspo-card{margin:0;width:clamp(76px,12vw,142px);height:clamp(82px,13vw,154px);padding:5px;background:#fff;border:3px solid #321443;box-shadow:5px 5px 0 #321443;transform:rotate(-5deg);position:relative;z-index:1}
+.inspo-card img{display:block;width:100%;height:100%;object-fit:cover}
+.inspo-two{transform:rotate(5deg) translateY(7px)}
+.inspo-three{transform:rotate(-2deg) translateY(-5px)}
+.inspo-note{position:absolute;right:2%;bottom:7px;font:700 12px Caveat,cursive;color:#321443;background:#ffe85b;padding:3px 10px;transform:rotate(-4deg);border:2px solid #321443}
+.cabinet-photo-stickers{display:flex;gap:10px;float:right;margin:0 0 12px 15px;align-items:center}
+.cabinet-photo-stickers img{width:clamp(52px,7vw,88px);height:clamp(58px,8vw,98px);object-fit:cover;padding:4px;background:#fff;border:2px solid #321443;box-shadow:4px 4px 0 #ff35b8}
+.cabinet-photo-stickers img:first-child{transform:rotate(-7deg)}
+.cabinet-photo-stickers img:last-child{transform:rotate(6deg)}
+@media(max-width:520px){.inspo-strip{gap:9px;padding:15px 8px 27px;min-height:118px}.inspo-card{width:26vw;height:29vw;padding:3px}.inspo-note{font-size:10px}.cabinet-photo-stickers{float:none;justify-content:flex-end;margin:0 0 12px}}
+
+
+/* === PROFESSIONAL PROFILE / CREDENTIALS PANEL === */
+.credentials-panel{margin:26px 0 0;padding:clamp(18px,3vw,32px);border-top:5px solid #321443;background:linear-gradient(125deg,#ff4fca 0%,#bca0ff 48%,#74f1ff 100%);color:#321443;position:relative;isolation:isolate}
+.credentials-panel:before{content:"";position:absolute;inset:8px;border:2px dashed #321443;pointer-events:none;z-index:-1}
+.credentials-head{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:20px}
+.credentials-kicker{font:8px/1.8 "Press Start 2P",monospace;letter-spacing:.2px}
+.credentials-head h2{margin:8px 0 0;padding:0;border:0;color:#321443;text-shadow:2px 2px #ffe85b}
+.credentials-layout{display:grid;grid-template-columns:minmax(150px,220px) minmax(0,1fr);gap:22px;align-items:stretch}
+.credentials-portrait{margin:0;padding:10px;background:#ffe85b;border:3px solid #321443;box-shadow:6px 6px 0 #321443;align-self:start;transform:rotate(-1deg)}
+.credentials-portrait img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center;border:2px solid #321443}
+.credentials-portrait figcaption{font:7px/1.8 "Press Start 2P",monospace;margin-top:9px}
+.credentials-main{min-width:0}
+.credentials-name{font:clamp(14px,2vw,20px)/1.6 "Press Start 2P",monospace;margin:0 0 5px;color:#321443}
+.credentials-role{font-weight:900;font-size:15px;margin-bottom:13px}
+.credentials-links{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 18px}
+.credentials-links a{display:inline-block;padding:8px 10px;border:2px solid #321443;background:#321443;color:#ffe85b!important;text-decoration:none;font:8px/1.7 "Press Start 2P",monospace;overflow-wrap:anywhere}
+.credentials-links a:hover{background:#ffe85b;color:#321443!important}
+.credentials-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.credentials-item{padding:13px;background:#9cff7c;border:2px solid #321443;box-shadow:3px 3px 0 #321443;min-width:0}
+.credentials-item:nth-child(4n+2){background:#ffe85b}
+.credentials-item:nth-child(4n+3){background:#74f1ff}
+.credentials-item:nth-child(4n){background:#ff9fd7}
+.credentials-item h3{color:#321443;font-size:8px;margin-bottom:8px}
+.credentials-item p,.credentials-item li{font-size:13px;line-height:1.65;margin:5px 0}
+.credentials-item ul{padding-left:17px;margin:5px 0}
+.credentials-stamp{display:inline-block;margin-top:16px;padding:6px 9px;border:2px solid #321443;background:#321443;color:#ffe85b;font:7px/1.8 "Press Start 2P",monospace}
+@media(max-width:620px){.credentials-layout{grid-template-columns:1fr}.credentials-portrait{width:min(220px,75%);margin:0 auto 8px}.credentials-grid{grid-template-columns:1fr}.credentials-head h2{font-size:12px}}
+
+
+/* Pixel-art hot-pink cursor with black polka dots */
+html,body,body *{cursor:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2032%2032%22%20shape-rendering%3D%22crispEdges%22%3E%3Cdefs%3E%3CclipPath%20id%3D%22c%22%3E%3Cpath%20d%3D%22M3%202%20L3%2025%20L9%2019%20L14%2029%20L19%2026%20L14%2016%20L23%2016%20Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cpath%20d%3D%22M3%202%20L3%2025%20L9%2019%20L14%2029%20L19%2026%20L14%2016%20L23%2016%20Z%22%20fill%3D%22%23ff35b8%22%20stroke%3D%22%2316091f%22%20stroke-width%3D%222%22%20stroke-linejoin%3D%22miter%22%2F%3E%3Cg%20clip-path%3D%22url(%23c)%22%20fill%3D%22%2316091f%22%3E%3Crect%20x%3D%223%22%20y%3D%222%22%20width%3D%2220%22%20height%3D%2228%22%20fill%3D%22%23ff35b8%22%2F%3E%3Ccircle%20cx%3D%228%22%20cy%3D%227%22%20r%3D%222.1%22%2F%3E%3Ccircle%20cx%3D%2216%22%20cy%3D%227%22%20r%3D%222.1%22%2F%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2213%22%20r%3D%222.1%22%2F%3E%3Ccircle%20cx%3D%2220%22%20cy%3D%2213%22%20r%3D%222.1%22%2F%3E%3Ccircle%20cx%3D%227%22%20cy%3D%2219%22%20r%3D%222.1%22%2F%3E%3Ccircle%20cx%3D%2214%22%20cy%3D%2222%22%20r%3D%222.1%22%2F%3E%3Ccircle%20cx%3D%2217%22%20cy%3D%2228%22%20r%3D%222.1%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M3%202%20L3%2025%20L9%2019%20L14%2029%20L19%2026%20L14%2016%20L23%2016%20Z%22%20fill%3D%22none%22%20stroke%3D%22%2316091f%22%20stroke-width%3D%222%22%20stroke-linejoin%3D%22miter%22%2F%3E%3C%2Fsvg%3E") 3 2,auto}
+a,button,[role="button"],input,select,textarea,label{cursor:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2032%2032%22%20shape-rendering%3D%22crispEdges%22%3E%3Cdefs%3E%3CclipPath%20id%3D%22c%22%3E%3Cpath%20d%3D%22M3%202%20L3%2025%20L9%2019%20L14%2029%20L19%2026%20L14%2016%20L23%2016%20Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cpath%20d%3D%22M3%202%20L3%2025%20L9%2019%20L14%2029%20L19%2026%20L14%2016%20L23%2016%20Z%22%20fill%3D%22%23ff35b8%22%20stroke%3D%22%2316091f%22%20stroke-width%3D%222%22%20stroke-linejoin%3D%22miter%22%2F%3E%3Cg%20clip-path%3D%22url(%23c)%22%20fill%3D%22%2316091f%22%3E%3Crect%20x%3D%223%22%20y%3D%222%22%20width%3D%2220%22%20height%3D%2228%22%20fill%3D%22%23ff35b8%22%2F%3E%3Ccircle%20cx%3D%228%22%20cy%3D%227%22%20r%3D%222.1%22%2F%3E%3Ccircle%20cx%3D%2216%22%20cy%3D%227%22%20r%3D%222.1%22%2F%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2213%22%20r%3D%222.1%22%2F%3E%3Ccircle%20cx%3D%2220%22%20cy%3D%2213%22%20r%3D%222.1%22%2F%3E%3Ccircle%20cx%3D%227%22%20cy%3D%2219%22%20r%3D%222.1%22%2F%3E%3Ccircle%20cx%3D%2214%22%20cy%3D%2222%22%20r%3D%222.1%22%2F%3E%3Ccircle%20cx%3D%2217%22%20cy%3D%2228%22%20r%3D%222.1%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M3%202%20L3%2025%20L9%2019%20L14%2029%20L19%2026%20L14%2016%20L23%2016%20Z%22%20fill%3D%22none%22%20stroke%3D%22%2316091f%22%20stroke-width%3D%222%22%20stroke-linejoin%3D%22miter%22%2F%3E%3C%2Fsvg%3E") 3 2,pointer}
+@media(pointer:coarse){html,body,body *{cursor:auto!important}}
+
+
+/* Footer-only sticker: small, in normal flow, never overlapping content */
+.footer{align-items:center}
+.footer-links{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.footer-links a{margin-left:0!important}
+.end-sticker{display:block;width:42px;height:42px;max-width:12vw;object-fit:contain;flex:0 0 auto;align-self:center}
+.legal-dialog{width:min(700px,calc(100vw - 28px));max-height:82vh;overflow:auto;padding:0;border:5px solid #321443;background:#ffdcf5;color:#321443;box-shadow:9px 9px 0 #ff4bbd}
+.legal-dialog::backdrop{background:#321443b8;backdrop-filter:blur(3px)}
+.legal-dialog .dialog-topline{position:sticky;top:0;z-index:2}
+.legal-copy{padding:20px 24px;line-height:1.75}
+.legal-copy h3{margin:18px 0 6px;font-size:18px}
+.legal-copy p,.legal-copy li{margin:7px 0}
+.legal-copy ul{padding-left:22px}
+@media(max-width:520px){.footer{align-items:flex-start}.footer-links{max-width:100%;gap:10px}.end-sticker{width:34px;height:34px;max-width:34px;margin-left:auto}.legal-copy{padding:16px}.legal-dialog h2{font-size:20px}}
+
+</style>
+</head>
+<body>
+<div class="scrapbook-doodles" aria-hidden="true"><span class="scribble" style="left:2%;top:10%">good things take time ✦</span><span class="animal" style="left:4%;top:46%">🐈‍⬛</span><span class="seal" style="right:3%;top:17%">福</span><span class="animal" style="right:5%;top:39%;animation-delay:-2s">🐇</span><span class="scribble" style="right:2%;top:83%;transform:rotate(5deg)">keep going, little by little</span><span class="animal" style="left:15%;top:87%;animation-delay:-1s">🐉</span><span class="stripe" style="left:47%;top:7%"></span><span class="dot" style="right:15%;top:51%"></span><span class="scribble" style="left:3%;top:70%;transform:rotate(5deg)">stay curious ★</span><span class="seal" style="left:1%;top:34%">夢</span><span class="animal" style="right:14%;top:91%;animation-delay:-3s">🐟</span></div>
+<div class="computer-shell" id="computer-shell" aria-label="Retro tabletop computer display">
+
+
+<div class="desktop-notes" aria-label="Random motivational sticky notes">
+<aside class="sticky-note note-one"><span class="note-label">✦ NOTE TO SELF</span><span class="note-text" id="motivation-one">Good things take time.</span></aside>
+<aside class="sticky-note note-two"><span class="note-label">♡ REMEMBER</span><span class="note-text" id="motivation-two">Small steps count.</span></aside>
+</div>
+
+<div class="desktop-icons" aria-label="Desktop shortcuts">
+<button class="desktop-icon" data-open-tab="home"><span class="desktop-glyph">🖥️</span><span>MY PROFILE</span></button>
+<button class="desktop-icon" data-open-tab="cv"><span class="desktop-glyph">📄</span><span>FULL CV</span></button>
+<button class="desktop-icon" data-open-tab="projects"><span class="desktop-glyph">📁</span><span>PROJECTS</span></button>
+<button class="desktop-icon" data-open-tab="research"><span class="desktop-glyph">🧬</span><span>RESEARCH</span></button>
+<button class="desktop-icon" data-open-tab="skills"><span class="desktop-glyph">💾</span><span>SKILLS.DAT</span></button>
+</div>
+<div class="desktop-icons desktop-right" aria-label="Game shortcuts">
+<button class="desktop-icon" data-open-tab="arcade"><span class="desktop-glyph">🕹️</span><span>ARCADE.EXE</span></button>
+<button class="desktop-icon" data-open-tab="experience"><span class="desktop-glyph">📼</span><span>EXPERIENCE</span></button>
+</div>
+<div class="desktop-widget" aria-label="Desktop system widget"><div class="widget-head">SYSTEM MONITOR</div><div class="widget-line"><span>STATUS</span><b>ONLINE</b></div><div class="widget-line"><span>MODE</span><b>PIXEL OS</b></div><div class="widget-line"><span>PLAYER</span><b>01</b></div><div class="widget-line"><span>MISSION</span><b>BUILD</b></div><div style="margin-top:8px;color:#ffb8ef">✦ BIOLOGY × CODE ✦</div></div>
+<div class="site" id="portfolio-window">
+<div class="windowbar" id="windowbar"><span class="window-icon">🪟</span><span class="window-title">ANUBHUTI GOSWAMI PORTFOLIO — PORTFOLIO NAVIGATOR</span><span class="window-controls"><button class="window-control" id="window-min" aria-label="Minimize window" title="Minimize">_</button><button class="window-control max" id="window-max" aria-label="Maximize window" title="Maximize">□</button><button class="window-control close" id="window-close" aria-label="Minimize window" title="Hide window">×</button></span></div>
+<div class="sparkle-banner-wrap"><img class="sparkle-banner" src="https://www.gigaglitters.com/g/0y6fq3hk3tc.gif" alt="Sparkly glitter banner" loading="eager"></div>
+<div class="topbar"><span>FIELD NOTES No. 001 // ANUBHUTI GOSWAMI</span><span>BOTANY · BIOTECH · BITS OF CODE</span></div>
+<header class="hero">
+<div><div class="eyebrow">BIOTECHNOLOGY · COMPUTATIONAL BIOLOGY · PROJECTS</div><h1>Anubhuti Goswami</h1><div class="subtitle">B.TECH BIOTECHNOLOGY STUDENT @ LPU</div><div class="meta hero-meta">FARIDABAD, HARYANA · CGPA 7.58/10 · 60% SCHOLARSHIP</div><p class="intro">Second-year biotechnology undergraduate exploring genetics, microbiology, computational biology, and AI applications in life sciences. Interested in turning curious questions into research, code, and interactive learning projects.</p><div class="tags"><span class="tag">GENETICS</span><span class="tag">MICROBIOLOGY</span><span class="tag">BIOINFORMATICS</span><span class="tag">AI × LIFE SCIENCES</span></div></div>
+<div class="avatar" role="img" aria-label="Portfolio avatar portrait"><span class="portrait-sticker" aria-hidden="true">✿</span><img class="avatar-photo" src="https://i.pinimg.com/736x/ee/dd/cd/eeddcdb46f9b87b65ce4bc10934b0d46.jpg" alt="Anubhuti’s chosen portfolio avatar" loading="eager"><svg viewBox="0 0 220 240" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="220" height="240" fill="#ffe45b"/><path d="M0 25L28 0h31L0 58zM220 168l-40 72h-35l75-120z" fill="#ff4bbd"/><circle cx="30" cy="175" r="14" fill="#50e7ff"/><path d="M177 21l8 17 19 3-14 13 3 19-16-9-17 9 4-19-14-13 19-3z" fill="#9b65ff"/><path d="M43 240c4-39 24-61 67-64 46 1 66 26 70 64z" fill="#7d3be8" stroke="#321443" stroke-width="5"/><path d="M81 171h58v35H81z" fill="#e9a47f"/><path d="M57 95c0-48 22-72 57-72s57 25 57 72v56c-9 24-29 38-57 38s-49-15-57-39z" fill="#68402c" stroke="#321443" stroke-width="5"/><path d="M72 91c0-30 15-49 42-49s42 19 42 49v58c-8 20-24 30-42 30s-34-10-42-30z" fill="#f2bd97"/><path d="M58 94c-1-36 14-65 42-72 22-6 45 2 59 22 8 12 12 30 10 53l-18-18-5-22c-13 12-35 18-63 15l-7 25z" fill="#68402c" stroke="#321443" stroke-width="5" stroke-linejoin="round"/><path d="M63 102l-2 43 13 11 4-47zM157 100l3 47-13 11-4-47z" fill="#68402c"/><path d="M76 113h25M119 113h25" stroke="#321443" stroke-width="4" stroke-linecap="round"/><rect x="72" y="103" width="35" height="29" rx="9" fill="#fff7ef" fill-opacity=".22" stroke="#321443" stroke-width="5"/><rect x="113" y="103" width="35" height="29" rx="9" fill="#fff7ef" fill-opacity=".22" stroke="#321443" stroke-width="5"/><path d="M107 115h6M65 115h7M148 115h8" stroke="#321443" stroke-width="5" stroke-linecap="round"/><circle cx="91" cy="117" r="4" fill="#321443"/><circle cx="130" cy="117" r="4" fill="#321443"/><path d="M105 138l-3 9 9 2" fill="none" stroke="#b76f5b" stroke-width="3" stroke-linecap="round"/><path d="M96 157q14 11 28 0" fill="none" stroke="#9d4252" stroke-width="4" stroke-linecap="round"/><path d="M79 146l-9 4M141 146l9 4" stroke="#ee8b86" stroke-width="5" stroke-linecap="round"/><path d="M79 204l-18 36h98l-18-36-21 13z" fill="#ff73bd" stroke="#321443" stroke-width="4"/><path d="M97 206l13 11 13-11" fill="#fff3a3" stroke="#321443" stroke-width="3"/><path d="M20 86l7 13 15 2-11 10 3 15-14-7-13 7 3-15L0 101l15-2z" fill="#fff4a5" stroke="#321443" stroke-width="2"/><text x="171" y="218" font-family="sans-serif" font-size="17" font-weight="900" fill="#321443" transform="rotate(-9 171 218)">AG!</text></svg></div>
+</header>
+<div class="inspo-strip" aria-label="Decorative scrapbook image collage"><figure class="inspo-card inspo-one"><img src="https://i.pinimg.com/736x/64/3e/af/643eafff3dcc214718773f6915828dd5.jpg" alt="Scrapbook inspiration" loading="lazy"></figure><figure class="inspo-card inspo-two"><img src="https://i.pinimg.com/1200x/6e/8a/d3/6e8ad3eed6631d0a16b6d2f6077c618a.jpg" alt="Decorative collage image" loading="lazy"></figure><figure class="inspo-card inspo-three"><img src="https://i.pinimg.com/1200x/94/44/24/944424eb86eb8d97367b2cb15843a2f8.jpg" alt="Decorative scrapbook image" loading="lazy"></figure><span class="inspo-note">little things make a world ✦</span></div>
+<nav class="nav" role="tablist" aria-label="Portfolio sections">
+<button class="nav-btn" data-tab="home" role="tab" aria-selected="true">HOME</button><button class="nav-btn" data-tab="arcade" role="tab" aria-selected="false">✦ ARCADE ✦</button><button class="nav-btn" data-tab="cv" role="tab" aria-selected="false">CV / RESUME</button><button class="nav-btn" data-tab="experience" role="tab" aria-selected="false">EXPERIENCE</button><button class="nav-btn" data-tab="projects" role="tab" aria-selected="false">PROJECTS</button><button class="nav-btn" data-tab="research" role="tab" aria-selected="false">RESEARCH</button><button class="nav-btn" data-tab="skills" role="tab" aria-selected="false">SKILLS</button>
+</nav>
+<main>
+<section class="panel active" id="tab-home" role="tabpanel"><h2>✦ PLAYER PROFILE & ACADEMICS ✦</h2><div class="grid"><article class="card"><h3>EDUCATION</h3><div class="meta">Lovely Professional University · 2025–2029</div><p><strong>B.Tech Biotechnology</strong></p><p>CGPA: 7.58 / 10.0</p><p>Recipient of a 60% academic scholarship.</p><p>Based in Faridabad, Haryana, India.</p></article><article class="card"><h3>CONTACT & LINKS</h3><p>Email: <a href="mailto:anubhutiworkk@gmail.com">anubhutiworkk@gmail.com</a></p><p><a href="https://linkedin.com/in/anubhuti-goswami-b6382137b" target="_blank" rel="noopener">LinkedIn profile ↗</a></p><p><a href="https://github.com/anubhutigoswami125" target="_blank" rel="noopener">GitHub profile ↗</a></p></article></div><div class="callout" style="margin-top:18px">CURRENT QUEST: building skills in Python, data analysis, bioinformatics, genetics, and computational life sciences.</div>
+<section class="cabinet" aria-labelledby="cabinet-heading">
+  <div class="cabinet-heading"><div class="cabinet-photo-stickers"><img src="https://i.pinimg.com/736x/64/3e/af/643eafff3dcc214718773f6915828dd5.jpg" alt="" loading="lazy"><img src="https://i.pinimg.com/1200x/6e/8a/d3/6e8ad3eed6631d0a16b6d2f6077c618a.jpg" alt="" loading="lazy"></div><span class="archive-stamp">PERSONAL MUSEUM · OPEN COLLECTION</span><h2 id="cabinet-heading">PROJECT SCRAPBOOK</h2><p>Selected projects, research work, and experiments. Open an item for details.</p><span class="hand-note">CLICK TO OPEN ↗</span></div>
+  <div class="exhibit-grid">
+    <button class="exhibit exhibit-rose" type="button" data-exhibit="microbequest"><span class="exhibit-art" aria-hidden="true">🦠</span><span class="exhibit-id">EXHIBIT 01 · CASE FILE</span><strong>MicrobeQuest</strong><small>An outbreak mystery built from microbiology</small><span class="exhibit-open">OPEN SPECIMEN ↗</span></button>
+    <button class="exhibit exhibit-sage" type="button" data-exhibit="pulse"><span class="exhibit-art" aria-hidden="true">🫀</span><span class="exhibit-id">EXHIBIT 02 · HEALTH EQUITY</span><strong>BIOINNOVATE</strong><small>Poster · pulse oximetry and measurement bias</small><span class="exhibit-open">READ FIELD NOTE ↗</span></button>
+    <button class="exhibit exhibit-parchment" type="button" data-exhibit="bioelectric"><span class="exhibit-art" aria-hidden="true">✦</span><span class="exhibit-id">EXHIBIT 03 · RESEARCH</span><strong>IC-BIOSUSTAIN</strong><small>Student poster presentation · 18–19 November 2026</small><span class="exhibit-open">VIEW RESEARCH ↗</span></button>
+    <button class="exhibit exhibit-lilac" type="button" data-exhibit="citizenscience"><span class="exhibit-art" aria-hidden="true">🔬</span><span class="exhibit-id">EXHIBIT 04 · CITIZEN SCIENCE</span><strong>Small Data, Real Science</strong><small>Classifying images for research projects</small><span class="exhibit-open">INSPECT NOTES ↗</span></button>
+    <button class="exhibit exhibit-ink" type="button" data-exhibit="simulab"><span class="exhibit-art" aria-hidden="true">🧪</span><span class="exhibit-id">EXHIBIT 05 · EXPERIMENT</span><strong>SimuLab</strong><small>A point-and-click virtual laboratory concept</small><span class="exhibit-open">EXPLORE IDEA ↗</span></button>
+    <button class="exhibit exhibit-rose" type="button" data-exhibit="code"><span class="exhibit-art" aria-hidden="true">⌘</span><span class="exhibit-id">EXHIBIT 06 · CODE & CURIOSITY</span><strong>Biology × Code</strong><small>Python, data, AI, and learning in public</small><span class="exhibit-open">OPEN NOTEBOOK ↗</span></button>
+  </div>
+  <p class="cabinet-footnote">Collection status: always growing · Some exhibits are coursework or concepts in progress, labelled as such.</p>
+</section>
+<dialog class="exhibit-dialog" id="exhibit-dialog" aria-labelledby="exhibit-dialog-title">
+  <div class="dialog-topline"><span>FIELD NOTE / COLLECTION CARD</span><button class="dialog-x" id="exhibit-close" type="button" aria-label="Close exhibit">×</button></div>
+  <div class="dialog-specimen" aria-hidden="true" id="exhibit-dialog-art">🦠</div>
+  <div class="exhibit-id" id="exhibit-dialog-id">EXHIBIT 01</div>
+  <h3 id="exhibit-dialog-title">Exhibit title</h3>
+  <p id="exhibit-dialog-description">Exhibit notes.</p>
+  <div class="dialog-links" id="exhibit-dialog-links"></div>
+  <button class="btn" id="exhibit-dialog-jump" type="button">OPEN RELATED SECTION ↗</button>
+</dialog>
+
+<dialog class="legal-dialog" id="legal-dialog" aria-labelledby="legal-dialog-title">
+  <div class="dialog-topline"><span>PORTFOLIO INFORMATION</span><button class="dialog-x" id="legal-close" type="button" aria-label="Close legal information">×</button></div>
+  <div class="legal-copy">
+    <h2 id="legal-dialog-title">TERMS OF SERVICE</h2>
+    <div id="legal-terms">
+      <p>This website is a personal academic and professional portfolio maintained by Anubhuti Goswami. By using the site, you agree to use its content lawfully and respectfully.</p>
+      <h3>Portfolio content</h3>
+      <p>Project descriptions, educational material, and personal achievements are provided for general information. They may be updated or corrected over time. Do not copy, republish, or present my work as your own without permission and appropriate attribution.</p>
+      <h3>External links and resources</h3>
+      <p>This site may link to third-party websites, projects, services, or media. Those destinations are operated by others and are subject to their own terms and policies. I do not control or guarantee their availability or content.</p>
+      <h3>Availability and contact</h3>
+      <p>The site is provided as-is, without a guarantee of uninterrupted availability or error-free content. For questions about portfolio material or permission to reuse it, contact <a href="mailto:anubhutiworkk@gmail.com">anubhutiworkk@gmail.com</a>.</p>
+      <p><strong>Last updated:</strong> 17 October 2026.</p>
+    </div>
+    <div id="legal-privacy" hidden>
+      <p>This is a personal portfolio hosted on GitHub Pages. It is not designed to ask visitors to create accounts or submit personal details through a contact form.</p>
+      <h3>Information and browser storage</h3>
+      <p>The Star Catcher mini-game may save your best score in your own browser using local storage. That score is used to display your personal best on this device and is not sent to me by the game code.</p>
+      <p>GitHub Pages and third-party providers used to deliver site resources may process standard technical data, such as request logs or connection information, under their own policies.</p>
+      <h3>Third-party resources</h3>
+      <p>The site may load fonts, images, or links from external providers. When your browser requests those resources, the providers may receive technical information such as your IP address. Their own privacy policies apply.</p>
+      <h3>Your choices</h3>
+      <p>You can clear the site's local storage through your browser settings and choose not to follow external links. For questions about this policy, contact <a href="mailto:anubhutiworkk@gmail.com">anubhutiworkk@gmail.com</a>.</p>
+      <p><strong>Last updated:</strong> 17 October 2026.</p>
+    </div>
+  </div>
+</dialog>
+</section>
+<section class="panel" id="tab-arcade" role="tabpanel"><h2>✦ PINK PIXEL ARCADE ✦</h2><div class="arcade-intro">FREE PLAY FOREVER! 🎀 ★ 🪐 ✿<br>Two tiny games. No coins, no downloads, just vibes. Keyboard and touch controls supported.</div><div class="arcade-grid">
+<article class="machine"><h3>01 / STAR CATCHER</h3><p class="machine-desc">Move your basket to catch falling stars. Use ← → or A / D, or the buttons below.</p><div class="screen"><canvas id="catch-canvas" aria-label="Star Catcher game area"></canvas></div><div class="hud"><span>SCORE: <b id="catch-score">000</b></span><span>TIME: <b id="catch-time">30</b>s</span><span>BEST: <b id="catch-best">000</b></span></div><div class="actions"><button class="btn" id="catch-start" type="button">▶ START</button><button class="btn" id="catch-reset" type="button">↻ RESET</button></div><div class="move-controls"><button class="btn" id="catch-left" type="button">◀ LEFT</button><button class="btn" id="catch-right" type="button">RIGHT ▶</button></div><p class="message" id="catch-message" aria-live="polite">Press START and catch the sparkles!</p></article>
+<article class="machine"><h3>02 / PIXEL POP</h3><p class="machine-desc">Tap the sparkles before they teleport. How many can you pop in 15 seconds?</p><div class="pop-zone" id="pop-zone"><div class="prompt" id="pop-prompt">READY PLAYER ONE?<br>PRESS START!</div></div><div class="hud"><span>POPS: <b id="pop-score">000</b></span><span>TIME: <b id="pop-time">15</b>s</span></div><div class="actions"><button class="btn" id="pop-start" type="button">▶ START POP</button><button class="btn" id="pop-reset" type="button">↻ RESET</button></div><p class="message" id="pop-message" aria-live="polite">Click START, then tap the sparkle targets!</p></article>
+</div></section>
+
+<section class="panel" id="tab-cv" role="tabpanel">
+<h2>✦ CURRICULUM VITAE / PLAYER DOSSIER ✦</h2>
+<div class="cv-summary"><strong>ANUBHUTI GOSWAMI</strong><br>Biotechnology Undergraduate · Lovely Professional University<br>Faridabad, Haryana, India · 9354411744 · <a href="mailto:anubhutiworkk@gmail.com">anubhutiworkk@gmail.com</a><br><a href="https://linkedin.com/in/anubhuti-goswami-b6382137b" target="_blank" rel="noopener">LinkedIn ↗</a> · <a href="https://github.com/anubhutigoswami125" target="_blank" rel="noopener">GitHub ↗</a><br><strong>Profile:</strong> Second-year B.Tech Biotechnology student interested in biotechnology research, genetic engineering, microbiology, bioinformatics, and AI applications in life sciences. Building practical experience through laboratory coursework, virtual training, scientific presentations, citizen-science projects, community volunteering, and interdisciplinary technology projects. Seeking opportunities for practical exposure in biotechnology research and industry, especially data-focused and computational life-science work.<br><strong>Academic snapshot:</strong> CGPA 7.58/10 · 60% LPU academic scholarship · Class XII: 89% · Class X: 94.8%</div>
+<div class="cv-section"><h3>01 / EDUCATION</h3>
+<article class="cv-entry"><h3>B.Tech Biotechnology</h3><div class="meta">Lovely Professional University (LPU) · 2025–2029 · Punjab, India</div><div class="cv-prose"><p>Completed first-year coursework and progressing through the second year of the undergraduate biotechnology programme.</p><p>Relevant academic areas include genetics, microbiology, biochemistry, Python programming, C++ object-oriented programming, and data analysis and simulations.</p><p>Coursework explores microbial diversity and growth, genetic inheritance and chromosomal variation, biological data visualization, statistical testing, classification, clustering, and introductory machine-learning applications in biology and healthcare.</p><p>Recipient of a 60% academic scholarship.</p></div></article>
+<article class="cv-entry"><h3>Senior Secondary (Class XII)</h3><div class="meta">Modern Delhi International School · 2025</div><div class="cv-prose"><p>Achieved 89% overall in the Physics, Chemistry, and Biology stream.</p><p>Received a 100% academic scholarship for Classes XI and XII.</p></div></article>
+<article class="cv-entry"><h3>Secondary (Class X)</h3><div class="meta">Modern Delhi International School · 2023</div><div class="cv-prose"><p>Achieved 94.8% overall.</p><p>International English Olympiad: International Rank 4 and Gold Medal of Distinction.</p></div></article>
+</div>
+<div class="cv-section"><h3>02 / EXPERIENCE, TRAINING & SERVICE</h3>
+<article class="cv-entry"><h3>Content Writing Intern</h3><div class="meta">Henry Harvin · Aug–Oct 2026 · Six-week internship</div><div class="cv-prose"><p>Completed a six-week content-writing internship involving long-form article writing and research-based communication.</p><p>Worked on content planning strategies for targeted brand campaigns and practised organizing research into clear, audience-oriented writing.</p><p>Strengthened skills in research, outlining, editing, written communication, and completing deliverables against assignment requirements.</p></div></article>
+<article class="cv-entry"><h3>Virtual Intern — Genetic Engineering Training</h3><div class="meta">BioLim.org · Jul 2026</div><div class="cv-prose"><p>Completed virtual training in genetic engineering principles, molecular workflows, and biotechnology applications.</p><p>Explored experimental logic and foundational laboratory concepts alongside prior school and university laboratory exposure, including pipetting and titration practice.</p><p>This entry represents virtual training rather than independent wet-laboratory employment.</p></div></article>
+<article class="cv-entry"><h3>Data Labeling Analyst — Virtual Job Simulation</h3><div class="meta">Forage · Jul 2026</div><div class="cv-prose"><p>Practised batch data labeling, intent and sentiment classification, and application of annotation guidelines to example data.</p><p>Completed privacy-oriented scenarios involving the identification of personally identifiable information (PII).</p><p>Documented annotation rationale and considered ambiguous cases to support consistent, careful labeling.</p></div></article>
+<article class="cv-entry"><h3>Community Development Project Volunteer</h3><div class="meta">Prayas Welfare School · Faridabad, Haryana · Jul 2026</div><div class="cv-prose"><p>Supported primary-school students in Mathematics, English, Hindi, and Environmental Studies.</p><p>Prepared question papers for midterm examinations and supported classroom learning.</p></div></article>
+
+</div>
+<div class="cv-section"><h3>03 / RESEARCH & SCIENTIFIC ENGAGEMENT</h3>
+<article class="cv-entry"><h3>Pulse Oximetry, Skin Pigmentation & Healthcare Equity</h3><div class="meta">Scientific Poster Presenter · BIOINNOVATE 2025 · LPU</div><div class="cv-prose"><p>Presented a student poster investigating concerns about pulse-oximeter accuracy across different skin pigmentation levels.</p><p>Explored the relationship between light absorption, diagnostic accuracy, biological variation, measurement bias, and equitable interpretation of clinical readings.</p></div></article>
+<article class="cv-entry"><h3>IC-BIOSUSTAIN</h3><div class="meta">Student poster presentation · LPU · 18–19 November 2026</div><div class="cv-prose"><p>Poster presentation scheduled for IC-BIOSUSTAIN.</p></div></article>
+<article class="cv-entry"><h3>Zooniverse Citizen-Science Research Volunteer</h3><div class="meta">Placenta Profiles · Clear Skies — Kiruna · Jun–Jul 2026 · 207 classifications</div><div class="cv-prose"><p>Contributed 207 classifications across Placenta Profiles and Clear Skies — Kiruna citizen-science projects.</p><p>Participated in Placenta Profiles and Clear Skies — Kiruna, completing structured image-classification and observation tasks according to project-specific guidance.</p><p>Built experience in careful visual inspection, consistent annotation, and following research-oriented classification protocols.</p></div></article>
+</div>
+<div class="cv-section"><h3>04 / SELECTED PROJECTS</h3>
+<article class="cv-entry"><h3>MicrobeQuest: The Outbreak Files</h3><div class="meta">Developer & Project Lead · Interactive Microbiology Learning Game · 2026</div><div class="cv-prose"><p>Designed and developed an investigation-style microbiology learning experience aligned with university coursework and organized around six syllabus-linked stages.</p><p>Features include case-based quizzes, hints, scoring, debriefing, replay, scientific explanations, participant registration, progress tracking, and an analytics dashboard with CSV export.</p><p>Developed the themed interface and interactive JavaScript behavior, including an evidence-room concept with clickable clues, sticky notes, and a detective-board presentation.</p></div><p><a href="https://anubhutigoswami125.github.io/MicrobeQuest/" target="_blank" rel="noopener">Open live demo ↗</a> · <a href="https://github.com/anubhutigoswami125/MicrobeQuest" target="_blank" rel="noopener">GitHub repository ↗</a></p></article>
+<article class="cv-entry"><h3>Personal Expense Tracker</h3><div class="meta">C++ Object-Oriented Programming Coursework · 2026</div><div class="cv-prose"><p>Coursework project focused on developing a personal expense-recording and budgeting application.</p><p>Planned functionality includes recording expenses, categorizing spending, and reviewing budget activity.</p><p>Learning focus includes classes and objects, structured data organization, and translating a practical use case into a program design.</p></div></article>
+<article class="cv-entry"><h3>SimuLab — Interactive Virtual Laboratory Concept</h3><div class="meta">Independent Project Concept · 2026</div><div class="cv-prose"><p>Developing a concept for a point-and-click virtual laboratory in which learners navigate laboratory benches, equipment, and experiment scenarios.</p><p>Explores how an interactive environment can make laboratory familiarization and experiment-based learning more approachable.</p></div></article>
+</div>
+<div class="cv-section"><h3>05 / LEADERSHIP, HACKATHONS & COMPETITIONS</h3>
+<article class="cv-entry"><h3>Board2Code Hackathon</h3><div class="meta">Team Leader · NetPractice Campus & LPU</div><div class="cv-prose"><p>Led a team developing Tikki Topple, an online game.</p></div></article>
+<article class="cv-entry"><h3>FlowZint AI Hackathon</h3><div class="meta">Participant · 2026</div><div class="cv-prose"><p>Participated in an AI-focused hackathon.</p></div></article>
+<article class="cv-entry"><h3>Elite Her Hackathon</h3><div class="meta">Participant</div><div class="cv-prose"><p>Participated in the hackathon.</p></div></article>
+<article class="cv-entry"><h3>Additional Technology & Innovation Events</h3><div class="meta">Additional participation</div><div class="cv-prose"><p>Participated in HackDevengers 1.0, Smart India Hackathon, and Google Gemini Fest.</p></div></article>
+</div>
+<div class="cv-section"><h3>06 / TECHNICAL & LABORATORY SKILLS</h3><div class="cv-columns">
+<article class="card"><h3>Programming & Digital Tools</h3><div class="cv-prose"><p><strong>Python:</strong> foundational level; learning programming fundamentals and data-focused applications.</p><p><strong>C / C++:</strong> foundational learning, including object-oriented programming concepts.</p><p><strong>HTML, CSS, and JavaScript:</strong> used in interactive web-project development.</p><p><strong>GitHub:</strong> repository-based project work and publishing web projects.</p><p><strong>Microsoft Excel and Word:</strong> spreadsheet organization, document preparation, and data handling.</p><p><strong>PowerPoint and Canva:</strong> presentations, posters, and visual communication.</p><p><strong>AI productivity tools:</strong> research assistance, ideation, drafting, and prototyping workflows.</p></div></article>
+<article class="card"><h3>Biotechnology, Data & Communication</h3><div class="cv-prose"><p><strong>Laboratory foundations:</strong> pipetting, titration, and basic microbiology laboratory practices through school and university lab settings.</p><p><strong>Biology:</strong> foundational coursework in genetics, microbiology, and biochemistry.</p><p><strong>Data labeling:</strong> batch processing, classification, annotation consistency, and rationale.</p><p><strong>Data privacy:</strong> introductory PII identification and privacy-oriented labeling.</p><p><strong>Scientific communication:</strong> student posters, long-form content, and educational explanations.</p><p><strong>Developing:</strong> bioinformatics, statistical analysis, data visualization, and computational life-science workflows.</p></div></article>
+</div></div>
+<div class="cv-section"><h3>07 / CERTIFICATIONS & CONTINUED LEARNING</h3><div class="cv-columns">
+<article class="card"><h3>Coursera</h3><div class="cv-prose"><p>Microbiology for Beginners — completed.</p><p>Programming for Everybody (Getting Started with Python) — University of Michigan; in progress.</p></div></article>
+<article class="card"><h3>IBM & HP LIFE</h3><div class="cv-prose"><p>Introduction to Artificial Intelligence — IBM.</p><p>Resume Writing and Job Interviewing — HP LIFE Foundation.</p></div></article>
+<article class="card"><h3>Saylor Academy</h3><div class="cv-prose"><p>CS101: Introduction to Programming 1.</p><p>Basics of Programming.</p><p>ESL003: Upper-Intermediate English as a Second Language.</p><p>Preparing and Delivering Presentations.</p></div></article>
+<article class="card"><h3>Additional Learning & Activities</h3><div class="cv-prose"><p>Scientific citizen-science classification through Zooniverse.</p><p>Hackathons, campus leadership, student poster presentations, and Model United Nations participation and public-speaking practice.</p></div></article>
+</div></div>
+<div class="cv-section"><h3>08 / LANGUAGES</h3><div class="cv-prose"><p>English · Hindi · Bengali · French</p></div></div>
+<div class="cv-section"><h3>09 / AREAS OF INTEREST</h3><div class="cv-keywords"><span class="tag">Bioinformatics</span><span class="tag">Computational Biology</span><span class="tag">Genetic Engineering</span><span class="tag">Microbiology</span><span class="tag">Biological Data Analysis</span><span class="tag">AI in Life Sciences</span><span class="tag">Scientific Research</span><span class="tag">Healthcare Equity</span><span class="tag">Scientific Communication</span></div></div>
+<div class="callout" style="margin-top:20px">CV NOTE: Coursework, virtual training, job simulations, volunteer contributions, student posters, and project concepts are labeled by type to distinguish them from paid employment or independent laboratory research.</div>
+</section>
+
+<section class="panel" id="tab-experience" role="tabpanel"><h2>✦ EXPERIENCE & INTERNSHIPS ✦</h2><div class="grid"><article class="card"><h3>CONTENT WRITING INTERN</h3><div class="meta">Henry Harvin · Aug–Oct 2026</div><p>Six-week content-writing internship involving long-form article writing, content planning, and research-based communication.</p></article><article class="card"><h3>VIRTUAL INTERN — GENETIC ENGINEERING</h3><div class="meta">BioLim.org · Jul 2026</div><p>Virtual training in genetic engineering principles, molecular workflows, and biotechnology applications.</p></article><article class="card"><h3>DATA LABELING ANALYST</h3><div class="meta">Forage · Jul 2026</div><p>Virtual job simulation involving intent and sentiment classification, PII privacy labeling, ambiguous cases, and annotation rationale.</p></article><article class="card"><h3>COMMUNITY DEVELOPMENT VOLUNTEER</h3><div class="meta">Prayas Welfare School · Faridabad · Jul 2026</div><p>Supported primary students and supported learning in Mathematics, English, Hindi, and Environmental Studies.</p></article></div></section>
+<section class="panel" id="tab-projects" role="tabpanel"><h2>✦ PROJECTS & BUILDS ✦</h2><div class="grid"><article class="card"><h3>MICROBEQUEST: THE OUTBREAK FILES</h3><div class="meta">Developer & project lead · 2026</div><p>Interactive microbiology investigation game with syllabus-aligned stages, case-based quizzes, hints, scoring, and analytics.</p><p><a href="https://anubhutigoswami125.github.io/MicrobeQuest/" target="_blank" rel="noopener">Live demo ↗</a> · <a href="https://github.com/anubhutigoswami125/MicrobeQuest" target="_blank" rel="noopener">GitHub ↗</a></p></article><article class="card"><h3>PERSONAL EXPENSE TRACKER</h3><div class="meta">C++ coursework</div><p>Building an object-oriented finance application for expense recording, categorization, and budget management.</p></article><article class="card"><h3>SIMULAB</h3><div class="meta">Interactive learning concept</div><p>A point-and-click virtual laboratory concept for exploring equipment, benches, and experiments.</p></article></div></section>
+<section class="panel" id="tab-research" role="tabpanel"><h2>✦ RESEARCH & SCIENTIFIC ENGAGEMENT ✦</h2><div class="grid"><article class="card"><h3>PULSE OXIMETRY & SKIN PIGMENTATION</h3><div class="meta">Poster · LPU</div><p>Explored racial bias in pulse oximetry and the relationship between skin pigmentation and healthcare equity.</p></article><article class="card"><h3>IC-BIOSUSTAIN</h3><div class="meta">Student poster presentation · LPU</div><p>Scheduled for 18–19 November 2026.</p></article><article class="card"><h3>ZOONIVERSE CITIZEN SCIENCE</h3><div class="meta">Research volunteering</div><p>Contributed 207 classifications across Placenta Profiles and Clear Skies – Kiruna.</p></article><article class="card"><h3>SCIENTIFIC INTERESTS</h3><div class="tags"><span class="tag">GENETICS</span><span class="tag">MICROBIOLOGY</span><span class="tag">BIOINFORMATICS</span><span class="tag">AI IN LIFE SCIENCES</span><span class="tag">DATA ANALYSIS</span></div></article></div></section>
+<section class="panel" id="tab-skills" role="tabpanel"><h2>✦ SKILLS & CERTIFICATIONS ✦</h2><div class="grid"><article class="card"><h3>TECHNICAL SKILLS</h3><div class="tags"><span class="tag">Python · beginner</span><span class="tag">C / C++ · learning</span><span class="tag">Excel</span><span class="tag">PowerPoint</span><span class="tag">Canva</span><span class="tag">GitHub</span><span class="tag">Data labeling</span><span class="tag">PII privacy</span><span class="tag">Data visualization</span><span class="tag">AI productivity tools</span></div></article><article class="card"><h3>LAB & BIOLOGY</h3><div class="tags"><span class="tag">Pipetting</span><span class="tag">Titration</span><span class="tag">Biotechnology</span><span class="tag">Microbiology coursework</span><span class="tag">Genetics coursework</span></div></article><article class="card"><h3>SELECTED CERTIFICATIONS</h3><p>• Python — University of Michigan / Coursera (in progress)</p><p>• Microbiology — Coursera</p><p>• Introduction to AI — IBM</p><p>• CS101 / Programming Fundamentals — Saylor Academy</p><p>• ESL 1, 2 & 3; Presentations — Saylor Academy</p><p>• Resume Writing — HP LIFE</p></article><article class="card"><h3>OTHER ACTIVITIES</h3><p>Hackathons, campus leadership, scientific poster presentations, and citizen-science annotation.</p></article></div></section>
+
+
+<section class="credentials-panel" aria-labelledby="credentials-title">
+  <div class="credentials-head">
+    <div><div class="credentials-kicker">PROFILE ARCHIVE / VERIFIED DETAILS</div><h2 id="credentials-title">PROFESSIONAL PROFILE & CREDENTIALS</h2></div>
+    <div class="credentials-kicker">ANUBHUTI GOSWAMI · 2026</div>
+  </div>
+  <div class="credentials-layout">
+    <figure class="credentials-portrait">
+      <img src="https://i.pinimg.com/736x/ee/dd/cd/eeddcdb46f9b87b65ce4bc10934b0d46.jpg" alt="Anubhuti's selected portfolio portrait" loading="lazy">
+      <figcaption>BIOTECH · DATA · RESEARCH</figcaption>
+    </figure>
+    <div class="credentials-main">
+      <h3 class="credentials-name">ANUBHUTI GOSWAMI</h3>
+      <div class="credentials-role">B.Tech Biotechnology student · Lovely Professional University</div>
+      <p>Interested in genetics, microbiology, biological data analysis, bioinformatics, and AI applications in life sciences. Building practical experience through science education projects, virtual training, research volunteering, and interdisciplinary hackathons.</p>
+      <div class="credentials-links">
+        <a href="mailto:anubhutiworkk@gmail.com">EMAIL ↗</a>
+        <a href="https://www.linkedin.com/in/anubhuti-goswami-b6382137b/" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a>
+        <a href="https://github.com/anubhutigoswami125" target="_blank" rel="noopener noreferrer">GITHUB ↗</a>
+        <a href="https://anubhutigoswami125.github.io/" target="_blank" rel="noopener noreferrer">PORTFOLIO ↗</a>
+      </div>
+      <div class="credentials-grid">
+        <article class="credentials-item"><h3>01 / ACADEMIC RECORD</h3><p><strong>B.Tech Biotechnology</strong><br>LPU · 2025–2029</p><p>CGPA: 7.58/10<br>Academic scholarship: 60%</p><p>Class XII: 89% · 2025<br>Class X: 94.8% · 2023</p></article>
+        <article class="credentials-item"><h3>02 / HONOURS</h3><p><strong>International English Olympiad</strong></p><p>International Rank 4 · Gold Medal of Distinction</p><p>100% academic scholarship in Classes XI–XII.</p></article>
+        <article class="credentials-item"><h3>03 / SELECTED TRAINING</h3><ul><li>Introduction to AI — IBM</li><li>Microbiology — Coursera (completed)</li><li>Genetic Engineering — BioLim virtual training</li><li>Data Labeling — Forage job simulation</li><li>Python — University of Michigan / Coursera (in progress)</li><li>HP LIFE and Saylor Academy coursework</li></ul></article>
+        <article class="credentials-item"><h3>04 / EXPERIENCE & PROJECTS</h3><ul><li>Content Writing Intern — Henry Harvin</li><li>Research Volunteer — Zooniverse (207 classifications)</li><li>Community Development Volunteer — Prayas Welfare School</li><li>Developer & Project Lead — MicrobeQuest: The Outbreak Files</li><li>Scientific poster presentations and interdisciplinary hackathons</li></ul></article>
+      </div>
+      <div class="credentials-stamp">COURSEWORK · TRAINING · PROJECTS CLEARLY LABELED</div>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="footer"><span>© 2026 ANUBHUTI GOSWAMI · PORTFOLIO</span><span class="footer-links"><a href="mailto:anubhutiworkk@gmail.com">CONTACT</a><a href="https://github.com/anubhutigoswami125" target="_blank" rel="noopener">GITHUB ↗</a><a href="#" data-legal="terms">TERMS OF SERVICE</a><a href="#" data-legal="privacy">PRIVACY POLICY</a></span><img class="end-sticker" src="https://imgs.search.brave.com/EJWPbWBgOBBzrTXlIoF-_yKu_yX5Rto9wkhlHA8DmQU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zMy5n/ZXRzdGlja2VycGFjay5jb20vc3RvcmFnZS91cGxvYWRzL3N0aWNrZXItcGFjay9jaGltbXktYnQyMS9zdGlja2VyXzEud2VicD81YzdjYjBkYjA0M2NmODlkZWUyYWRlNWFmMjg5OWY2ZiZkPTIwMHgyMDA" alt="Chimmy sticker" loading="lazy"></footer>
+</div>
+
+<div class="start-menu" id="start-menu" role="menu" aria-label="Start menu"><div class="start-menu-head">✦ ANUBHUTI GOSWAMI PORTFOLIO<br>PLAYER 01 ONLINE</div><button data-open-tab="home">🖥️ &nbsp; PROFILE.EXE</button><button data-open-tab="projects">📁 &nbsp; PROJECT FILES</button><button data-open-tab="research">🧬 &nbsp; RESEARCH LOG</button><button data-open-tab="arcade">🕹️ &nbsp; LAUNCH ARCADE</button><button data-open-tab="cv">📄 &nbsp; FULL CV / RESUME</button><button data-open-tab="experience">📼 &nbsp; EXPERIENCE</button><button data-open-tab="skills">💾 &nbsp; SKILLS DATABASE</button></div>
+<div class="taskbar"><button class="start-button" id="start-button" aria-expanded="false"><span class="start-star">✿</span><span class="start-label">START</span></button><button class="task-app active" id="task-app"><span>🪟</span><span>ANUBHUTI GOSWAMI PORTFOLIO — PORTFOLIO</span></button><span class="task-spacer"></span><span class="task-status">WI-FI ▰ ▰</span><span class="task-status" id="desktop-clock">00:00</span></div>
+<div class="desktop-tooltip" id="desktop-tooltip" role="status"></div>
+<div class="computer-controls" aria-hidden="true"><span class="speaker-grille"></span><span class="computer-badge">AG · PIXEL STATION 98</span><span class="power-led"></span></div>
+<div class="computer-keyboard" aria-hidden="true"><div class="keyboard-topline"></div><div class="key-row"></div><div class="key-row short-row"></div><div class="keyboard-trackpad"></div></div>
+</div>
+
+<script>
+(function(){
+'use strict';
+
+
+/* Desktop shell interactions */
+var appWindow=document.getElementById('portfolio-window');
+var windowBar=document.getElementById('windowbar');
+var startButton=document.getElementById('start-button');
+var startMenu=document.getElementById('start-menu');
+var taskApp=document.getElementById('task-app');
+var maxButton=document.getElementById('window-max');
+var dragState=null;
+function openWindow(){appWindow.classList.remove('window-minimized');taskApp.classList.add('active');}
+function minimizeWindow(){appWindow.classList.add('window-minimized');taskApp.classList.remove('active');}
+taskApp.addEventListener('click',function(){if(appWindow.classList.contains('window-minimized'))openWindow();else{appWindow.classList.remove('window-minimized');appWindow.scrollIntoView({behavior:'smooth',block:'start'});}});
+document.getElementById('window-min').addEventListener('click',function(e){e.stopPropagation();minimizeWindow();});
+document.getElementById('window-close').addEventListener('click',function(e){e.stopPropagation();minimizeWindow();});
+maxButton.addEventListener('click',function(e){e.stopPropagation();appWindow.classList.toggle('window-maximized');if(appWindow.classList.contains('window-maximized')){appWindow.style.left='';appWindow.style.top='';appWindow.style.transform='';maxButton.textContent='❐';}else{appWindow.style.left='';appWindow.style.top='';appWindow.style.transform='';maxButton.textContent='□';}});
+windowBar.addEventListener('pointerdown',function(e){if(e.target.closest('button')||appWindow.classList.contains('window-maximized')||window.innerWidth<=900)return;var rect=appWindow.getBoundingClientRect();dragState={x:e.clientX,y:e.clientY,left:rect.left,top:rect.top};appWindow.style.position='fixed';appWindow.style.margin='0';appWindow.style.width=rect.width+'px';appWindow.style.left=rect.left+'px';appWindow.style.top=rect.top+'px';appWindow.style.zIndex='10';windowBar.setPointerCapture(e.pointerId);});
+windowBar.addEventListener('pointermove',function(e){if(!dragState)return;var dx=e.clientX-dragState.x,dy=e.clientY-dragState.y;var x=Math.max(0,Math.min(window.innerWidth-appWindow.offsetWidth,dragState.left+dx));var y=Math.max(0,Math.min(window.innerHeight-90,dragState.top+dy));appWindow.style.left=x+'px';appWindow.style.top=y+'px';});
+function stopDrag(){dragState=null;}
+windowBar.addEventListener('pointerup',stopDrag);windowBar.addEventListener('pointercancel',stopDrag);
+startButton.addEventListener('click',function(){var open=startMenu.classList.toggle('open');startButton.setAttribute('aria-expanded',open?'true':'false');});
+document.addEventListener('click',function(e){if(!e.target.closest('#start-menu')&&!e.target.closest('#start-button')){startMenu.classList.remove('open');startButton.setAttribute('aria-expanded','false');}});
+document.querySelectorAll('[data-open-tab]').forEach(function(button){button.addEventListener('click',function(){openWindow();var tab=button.getAttribute('data-open-tab');switchTab(tab);startMenu.classList.remove('open');startButton.setAttribute('aria-expanded','false');if(window.innerWidth<=900)appWindow.scrollIntoView({behavior:'smooth',block:'start'});});});
+function tickClock(){var now=new Date();document.getElementById('desktop-clock').textContent=String(now.getHours()).padStart(2,'0')+':'+String(now.getMinutes()).padStart(2,'0');}
+tickClock();setInterval(tickClock,15000);
+
+var tabs=Array.prototype.slice.call(document.querySelectorAll('.nav-btn'));
+var panels=Array.prototype.slice.call(document.querySelectorAll('.panel'));
+function switchTab(name){
+ tabs.forEach(function(btn){var chosen=btn.getAttribute('data-tab')===name;btn.setAttribute('aria-selected',chosen?'true':'false');});
+ panels.forEach(function(panel){panel.classList.toggle('active',panel.id==='tab-'+name);});
+ if(name==='arcade'){resizeCatchCanvas();drawCatch();}
+ var targetPanel=document.getElementById('tab-'+name);
+ if(targetPanel){targetPanel.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});}
+}
+tabs.forEach(function(btn){btn.addEventListener('click',function(){switchTab(btn.getAttribute('data-tab'));});});
+var canvas=document.getElementById('catch-canvas'),ctx=canvas.getContext('2d');
+var catchScore=document.getElementById('catch-score'),catchTime=document.getElementById('catch-time'),catchBest=document.getElementById('catch-best'),catchMessage=document.getElementById('catch-message'),catchStart=document.getElementById('catch-start');
+var running=false,score=0,seconds=30,stars=[],lastTime=0,spawnTime=0,raf=0,timer=null,keys={left:false,right:false};
+var basket={x:200,y:200,w:56,h:18},best=0;
+try{best=Number(localStorage.getItem('anubhutiStarBest')||0)}catch(e){}
+catchBest.textContent=String(best).padStart(3,'0');
+function canvasSize(){var rect=canvas.getBoundingClientRect();var dpr=Math.min(window.devicePixelRatio||1,2);var w=Math.max(240,rect.width||480);canvas.width=Math.round(w*dpr);canvas.height=Math.round(235*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);basket.y=205;basket.x=Math.max(28,Math.min(w-28,basket.x));}
+function drawCatch(){
+ var w=canvas.clientWidth||480,h=235;ctx.clearRect(0,0,w,h);
+ var grad=ctx.createLinearGradient(0,0,w,h);grad.addColorStop(0,'#26063f');grad.addColorStop(.55,'#62138f');grad.addColorStop(1,'#321050');ctx.fillStyle=grad;ctx.fillRect(0,0,w,h);
+ for(var i=0;i<35;i++){var sx=(i*83+19)%w,sy=(i*47+13)%h;ctx.fillStyle=i%3===0?'#fff17b':(i%2===0?'#ff9ce8':'#9bffff');ctx.fillRect(sx,sy,2,2);}
+ stars.forEach(function(s){ctx.font='22px sans-serif';ctx.textAlign='center';ctx.fillStyle=s.color;ctx.fillText('✦',s.x,s.y);});
+ var bx=basket.x-basket.w/2,by=205;ctx.fillStyle='#ff35b8';ctx.fillRect(bx,by,basket.w,basket.h);ctx.fillStyle='#fff4ff';ctx.fillRect(bx+6,by-7,basket.w-12,7);ctx.fillStyle='#9bffff';ctx.fillRect(bx+13,by+5,7,4);ctx.fillRect(bx+36,by+5,7,4);ctx.fillStyle='#fff17b';ctx.fillRect(bx+3,by+18,13,4);ctx.fillRect(bx+40,by+18,13,4);
+ if(!running){ctx.fillStyle='rgba(20,2,35,.28)';ctx.fillRect(0,0,w,h);}
+}
+function endCatch(){
+ if(!running)return;running=false;clearInterval(timer);timer=null;cancelAnimationFrame(raf);keys.left=keys.right=false;catchStart.textContent='▶ PLAY AGAIN';catchMessage.textContent='TIME UP! You caught '+score+' star'+(score===1?'':'s')+'. Play again?';
+ if(score>best){best=score;catchBest.textContent=String(best).padStart(3,'0');try{localStorage.setItem('anubhutiStarBest',String(best))}catch(e){}}
+ drawCatch();
+}
+function frame(ts){
+ if(!running)return;
+ var dt=Math.min((ts-lastTime)/1000,.04);lastTime=ts;spawnTime+=dt;
+ if(spawnTime>.48){spawnTime=0;stars.push({x:12+Math.random()*Math.max(1,(canvas.clientWidth||480)-24),y:-10,v:75+Math.random()*85,color:['#fff17b','#ff8ce4','#9bffff','#ffffff'][Math.floor(Math.random()*4)]});}
+ var w=canvas.clientWidth||480;basket.x+=((keys.right?1:0)-(keys.left?1:0))*250*dt;basket.x=Math.max(28,Math.min(w-28,basket.x));
+ stars=stars.filter(function(s){s.y+=s.v*dt;if(s.y>190&&s.y<231&&Math.abs(s.x-basket.x)<34){score++;catchScore.textContent=String(score).padStart(3,'0');return false;}return s.y<250;});
+ drawCatch();raf=requestAnimationFrame(frame);
+}
+function startCatch(){
+ clearInterval(timer);cancelAnimationFrame(raf);score=0;seconds=30;stars=[];spawnTime=0;lastTime=performance.now();running=true;catchScore.textContent='000';catchTime.textContent='30';catchStart.textContent='PLAYING…';catchMessage.textContent='Catch the sparkles! Use ← → or A / D.';drawCatch();
+ timer=setInterval(function(){if(!running)return;seconds--;catchTime.textContent=String(Math.max(0,seconds));if(seconds<=0)endCatch();},1000);raf=requestAnimationFrame(frame);
+}
+function resetCatch(){running=false;clearInterval(timer);timer=null;cancelAnimationFrame(raf);stars=[];score=0;seconds=30;keys.left=keys.right=false;catchScore.textContent='000';catchTime.textContent='30';catchStart.textContent='▶ START';catchMessage.textContent='Press START and catch the sparkles!';drawCatch();}
+function resizeCatchCanvas(){canvasSize();}
+document.getElementById('catch-start').addEventListener('click',startCatch);
+document.getElementById('catch-reset').addEventListener('click',resetCatch);
+function bindHold(id,key){var el=document.getElementById(id);el.addEventListener('pointerdown',function(e){e.preventDefault();keys[key]=true;if(el.setPointerCapture)try{el.setPointerCapture(e.pointerId)}catch(err){}});['pointerup','pointercancel','lostpointercapture','pointerleave'].forEach(function(type){el.addEventListener(type,function(){keys[key]=false;});});}
+bindHold('catch-left','left');bindHold('catch-right','right');
+document.addEventListener('keydown',function(e){if(!running)return;if(['ArrowLeft','ArrowRight','KeyA','KeyD'].indexOf(e.code)>=0){e.preventDefault();if(e.code==='ArrowLeft'||e.code==='KeyA')keys.left=true;else keys.right=true;}});
+document.addEventListener('keyup',function(e){if(['ArrowLeft','KeyA'].indexOf(e.code)>=0)keys.left=false;if(['ArrowRight','KeyD'].indexOf(e.code)>=0)keys.right=false;});
+window.addEventListener('blur',function(){keys.left=keys.right=false;});
+window.addEventListener('resize',function(){resizeCatchCanvas();drawCatch();});
+resizeCatchCanvas();drawCatch();
+var zone=document.getElementById('pop-zone'),popScore=document.getElementById('pop-score'),popTime=document.getElementById('pop-time'),popMessage=document.getElementById('pop-message'),popStart=document.getElementById('pop-start'),popPrompt=document.getElementById('pop-prompt');
+var popRunning=false,pops=0,popSeconds=15,popTimer=null,target=null;
+function moveTarget(){if(!target)return;var maxX=Math.max(0,zone.clientWidth-52),maxY=Math.max(0,zone.clientHeight-52);target.style.left=Math.floor(Math.random()*maxX)+'px';target.style.top=Math.floor(Math.random()*maxY)+'px';target.textContent=['✦','★','♡','✧','✿'][Math.floor(Math.random()*5)];}
+function stopPop(){if(!popRunning)return;popRunning=false;clearInterval(popTimer);popTimer=null;if(target){target.remove();target=null;}popStart.textContent='▶ PLAY AGAIN';popMessage.textContent='TIME UP! You popped '+pops+' sparkle'+(pops===1?'':'s')+'. Try again!';}
+function startPop(){clearInterval(popTimer);if(target){target.remove();target=null;}pops=0;popSeconds=15;popRunning=true;popScore.textContent='000';popTime.textContent='15';popStart.textContent='PLAYING…';popMessage.textContent='POP POP POP!';popPrompt.style.display='none';target=document.createElement('button');target.type='button';target.className='target';target.setAttribute('aria-label','Pop sparkle target');target.addEventListener('click',function(){if(!popRunning)return;pops++;popScore.textContent=String(pops).padStart(3,'0');moveTarget();});zone.appendChild(target);moveTarget();popTimer=setInterval(function(){popSeconds--;popTime.textContent=String(Math.max(0,popSeconds));if(popSeconds<=0)stopPop();},1000);}
+function resetPop(){popRunning=false;clearInterval(popTimer);popTimer=null;if(target){target.remove();target=null;}pops=0;popSeconds=15;popScore.textContent='000';popTime.textContent='15';popStart.textContent='▶ START POP';popPrompt.style.display='grid';popMessage.textContent='Click START, then tap the sparkle targets!';}
+popStart.addEventListener('click',startPop);document.getElementById('pop-reset').addEventListener('click',resetPop);
+window.addEventListener('resize',function(){if(target)moveTarget();});
+
+/* Cabinet of curiosities: accessible exhibit details and working navigation. */
+var exhibitNotes={
+ microbequest:{id:'EXHIBIT 01 · CASE FILE',title:'MicrobeQuest: The Outbreak Files',art:'🦠',description:'An interactive microbiology investigation game I developed and led. It turns course topics into outbreak cases with six learning stages, case-based quizzes, hints, scoring, explanations, progress tracking, and analytics.',jump:'projects',links:[['Open live project','https://anubhutigoswami125.github.io/MicrobeQuest/'],['View source on GitHub','https://github.com/anubhutigoswami125/MicrobeQuest']]},
+ pulse:{id:'BIOINNOVATE · POSTER',title:'BIOINNOVATE',art:'🫀',description:'Presented a poster on racial bias in pulse oximetry and result discrepancy.',jump:'research',links:[]},
+ bioelectric:{id:'IC-BIOSUSTAIN',title:'IC-BIOSUSTAIN',art:'✦',description:'Student poster presentation at IC-BIOSUSTAIN, scheduled for 18–19 November 2026.',jump:'research',links:[]},
+ citizenscience:{id:'EXHIBIT 04 · CITIZEN SCIENCE',title:'Small Data, Real Science',art:'🔬',description:'I contributed 207 classifications to citizen-science projects including Placenta Profiles and Clear Skies – Kiruna. This exhibit highlights careful observation, structured annotation, and participation in research workflows.',jump:'research',links:[]},
+ simulab:{id:'EXHIBIT 05 · EXPERIMENT',title:'SimuLab',art:'🧪',description:'A concept for a point-and-click virtual laboratory where learners can inspect equipment, explore benches, and discover how experiments fit together. This is a learning concept, not a finished deployed product.',jump:'projects',links:[]},
+ code:{id:'EXHIBIT 06 · CODE & CURIOSITY',title:'Biology × Code',art:'⌘',description:'My computational life-sciences learning log: Python foundations, data analysis, introductory C/C++, AI tools, and experiments in making scientific topics interactive. The skills section records what I am learning and what I have practised.',jump:'skills',links:[]}
+};
+
+var legalDialog=document.getElementById('legal-dialog');
+var legalTitle=document.getElementById('legal-dialog-title');
+var legalTerms=document.getElementById('legal-terms');
+var legalPrivacy=document.getElementById('legal-privacy');
+document.querySelectorAll('[data-legal]').forEach(function(link){
+ link.addEventListener('click',function(event){
+  event.preventDefault();
+  var privacy=link.getAttribute('data-legal')==='privacy';
+  legalTitle.textContent=privacy?'PRIVACY POLICY':'TERMS OF SERVICE';
+  legalTerms.hidden=privacy;
+  legalPrivacy.hidden=!privacy;
+  if(typeof legalDialog.showModal==='function')legalDialog.showModal();else legalDialog.setAttribute('open','');
+ });
+});
+function closeLegal(){if(typeof legalDialog.close==='function'&&legalDialog.open)legalDialog.close();else legalDialog.removeAttribute('open');}
+document.getElementById('legal-close').addEventListener('click',closeLegal);
+legalDialog.addEventListener('click',function(event){if(event.target===legalDialog)closeLegal();});
+document.addEventListener('keydown',function(event){if(event.key==='Escape'&&legalDialog.open)closeLegal();});
+
+var exhibitDialog=document.getElementById('exhibit-dialog');
+var exhibitDialogTitle=document.getElementById('exhibit-dialog-title');
+var exhibitDialogDescription=document.getElementById('exhibit-dialog-description');
+var exhibitDialogId=document.getElementById('exhibit-dialog-id');
+var exhibitDialogArt=document.getElementById('exhibit-dialog-art');
+var exhibitDialogLinks=document.getElementById('exhibit-dialog-links');
+var exhibitDialogJump=document.getElementById('exhibit-dialog-jump');
+var activeExhibit=null;
+document.querySelectorAll('[data-exhibit]').forEach(function(button){
+ button.addEventListener('click',function(){
+  activeExhibit=exhibitNotes[button.getAttribute('data-exhibit')];
+  if(!activeExhibit)return;
+  exhibitDialogTitle.textContent=activeExhibit.title;
+  exhibitDialogDescription.textContent=activeExhibit.description;
+  exhibitDialogId.textContent=activeExhibit.id;
+  exhibitDialogArt.textContent=activeExhibit.art;
+  exhibitDialogLinks.replaceChildren();
+  activeExhibit.links.forEach(function(item){
+   var link=document.createElement('a');link.href=item[1];link.textContent=item[0];link.target='_blank';link.rel='noopener noreferrer';exhibitDialogLinks.appendChild(link);
+  });
+  exhibitDialogJump.textContent='OPEN '+activeExhibit.jump.toUpperCase()+' SECTION ↗';
+  if(typeof exhibitDialog.showModal==='function')exhibitDialog.showModal();else exhibitDialog.setAttribute('open','');
+ });
+});
+function closeExhibit(){if(typeof exhibitDialog.close==='function'&&exhibitDialog.open)exhibitDialog.close();else exhibitDialog.removeAttribute('open');}
+document.getElementById('exhibit-close').addEventListener('click',closeExhibit);
+exhibitDialogJump.addEventListener('click',function(){if(!activeExhibit)return;var jump=activeExhibit.jump;closeExhibit();switchTab(jump);});
+exhibitDialog.addEventListener('click',function(event){if(event.target===exhibitDialog)closeExhibit();});
+document.addEventListener('keydown',function(event){if(event.key==='Escape'&&exhibitDialog.open)closeExhibit();});
+
+})();
+</script>
+</body>
+</html>
